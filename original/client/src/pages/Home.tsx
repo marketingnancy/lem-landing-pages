@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -64,14 +66,14 @@ export default function Home() {
   };
 
   const galleryImages = [
-    { src: "/PDP.jpg", alt: "Nancy's Lem wellness device" },
-    { src: "/PDP-1.jpg", alt: "Lem with lifestyle setting" },
-    { src: "/PDP-2.jpg", alt: "Close-up of Lem design" },
-    { src: "/PDP-3.jpg", alt: "Lem product details" },
-    { src: "/PDP-4.jpg", alt: "Lem in use demonstration" },
-    { src: "/PDP-5.jpg", alt: "Lem packaging and accessories" },
-    { src: "/PDP-6.jpg", alt: "Lem lifestyle image" },
-    { src: "/PDP-7.jpg", alt: "Lem product features" },
+    { src: `${BASE}/PDP.jpg`, alt: "Nancy's Lem wellness device" },
+    { src: `${BASE}/PDP-1.jpg`, alt: "Lem with lifestyle setting" },
+    { src: `${BASE}/PDP-2.jpg`, alt: "Close-up of Lem design" },
+    { src: `${BASE}/PDP-3.jpg`, alt: "Lem product details" },
+    { src: `${BASE}/PDP-4.jpg`, alt: "Lem in use demonstration" },
+    { src: `${BASE}/PDP-5.jpg`, alt: "Lem packaging and accessories" },
+    { src: `${BASE}/PDP-6.jpg`, alt: "Lem lifestyle image" },
+    { src: `${BASE}/PDP-7.jpg`, alt: "Lem product features" },
   ];
 
   return (
@@ -81,7 +83,7 @@ export default function Home() {
         <div className="container px-4 py-4">
           <div className="flex items-center justify-between">
             <img 
-              src="/wellness-insider-logo.png" 
+              src={`${BASE}/wellness-insider-logo.png`} 
               alt="Wellness Insider" 
               className="h-8 md:h-10"
             />
@@ -176,7 +178,7 @@ export default function Home() {
       {/* Hero Image */}
       <section className="container max-w-4xl py-8">
         <img 
-          src="/PDP.jpg" 
+          src={`${BASE}/PDP.jpg`} 
           alt="Nancy's Lem wellness device on nightstand" 
           className="w-full rounded-lg shadow-lg"
         />
@@ -376,7 +378,7 @@ export default function Home() {
             {/* Discretion Illustration */}
             <div className="max-w-md mx-auto mb-6">
               <img 
-                src="/discretion_illustration.png" 
+                src={`${BASE}/discretion_illustration.png`} 
                 alt="Lem device sitting discreetly on nightstand" 
                 className="w-full rounded-lg shadow-lg"
               />
@@ -460,7 +462,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img 
-                src="/PDP-5.jpg" 
+                src={`${BASE}/PDP-5.jpg`} 
                 alt="Lem unboxing experience" 
                 className="w-full rounded-lg shadow-lg"
               />
@@ -790,11 +792,11 @@ export default function Home() {
           <div className="bg-white p-6 rounded-lg max-w-3xl mx-auto">
             <h3 className="font-bold text-lg text-gray-900 mb-3 text-center">As Seen In:</h3>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              <img src="/timeout_logo.webp" alt="Time Out" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/tatler_logo.webp" alt="Tatler" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/sarasense_logo.webp" alt="Sarasense" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/zenify_logo.webp" alt="Zenify" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/vocal_logo.webp" alt="Vocal" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/timeout_logo.webp`} alt="Time Out" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/tatler_logo.webp`} alt="Tatler" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/sarasense_logo.webp`} alt="Sarasense" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/zenify_logo.webp`} alt="Zenify" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/vocal_logo.webp`} alt="Vocal" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
             </div>
           </div>
         </div>

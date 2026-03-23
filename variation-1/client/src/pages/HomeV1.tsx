@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -50,14 +52,14 @@ export default function HomeV1() {
   };
 
   const galleryImages = [
-    { src: "/v1-self-love-manual.jpg", alt: "Self-love manual cards" },
-    { src: "/v1-medical-silicone.jpg", alt: "Medical grade silicone - gentle on skin" },
-    { src: "/v1-12-patterns.jpg", alt: "12 Patterns, Endless Possibilities" },
-    { src: "/v1-all-about-lem.jpg", alt: "All about Lem features" },
-    { src: "/v1-happy-customers.jpg", alt: "Join 500,000+ Happy Customers" },
-    { src: "/PDP-1.jpg", alt: "Lem with lifestyle setting" },
-    { src: "/PDP-2.jpg", alt: "Close-up of Lem design" },
-    { src: "/PDP-8.jpg", alt: "Lem held in hand" },
+    { src: `${BASE}/v1-self-love-manual.jpg`, alt: "Self-love manual cards" },
+    { src: `${BASE}/v1-medical-silicone.jpg`, alt: "Medical grade silicone - gentle on skin" },
+    { src: `${BASE}/v1-12-patterns.jpg`, alt: "12 Patterns, Endless Possibilities" },
+    { src: `${BASE}/v1-all-about-lem.jpg`, alt: "All about Lem features" },
+    { src: `${BASE}/v1-happy-customers.jpg`, alt: "Join 500,000+ Happy Customers" },
+    { src: `${BASE}/PDP-1.jpg`, alt: "Lem with lifestyle setting" },
+    { src: `${BASE}/PDP-2.jpg`, alt: "Close-up of Lem design" },
+    { src: `${BASE}/PDP-8.jpg`, alt: "Lem held in hand" },
   ];
 
   return (
@@ -67,7 +69,7 @@ export default function HomeV1() {
         <div className="container px-4 py-4">
           <div className="flex items-center justify-between">
             <img
-              src="/wellness-insider-logo.png"
+              src={`${BASE}/wellness-insider-logo.png`}
               alt="Wellness Insider"
               className="h-8 md:h-10"
             />
@@ -154,7 +156,7 @@ export default function HomeV1() {
       {/* Hero Image */}
       <section className="container max-w-4xl py-8">
         <img
-          src="/v1-self-love-manual.jpg"
+          src={`${BASE}/v1-self-love-manual.jpg`}
           alt="Self-love manual - A guide for anyone who's still figuring it out"
           className="w-full rounded-lg shadow-lg"
         />
@@ -164,12 +166,12 @@ export default function HomeV1() {
       {/* Video Section */}
       <section className="container max-w-4xl py-6">
         <video
-          src="/v1-video.mp4"
+          src={`${BASE}/v1-video.mp4`}
           controls
           playsInline
           preload="metadata"
           className="w-full rounded-lg shadow-lg"
-          poster="/v1-12-patterns.jpg"
+          poster={`${BASE}/v1-12-patterns.jpg`}
         >
           Your browser does not support the video tag.
         </video>
@@ -367,7 +369,7 @@ export default function HomeV1() {
           <div className="bg-[#FFE14D]/20 p-6 rounded-xl mb-6">
             <div className="max-w-md mx-auto mb-6">
               <img
-                src="/v1-all-about-lem.jpg"
+                src={`${BASE}/v1-all-about-lem.jpg`}
                 alt="Lem device sitting discreetly on nightstand"
                 className="w-full rounded-lg shadow-lg"
               />
@@ -423,7 +425,7 @@ export default function HomeV1() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
-                src="/v1-medical-silicone.jpg"
+                src={`${BASE}/v1-medical-silicone.jpg`}
                 alt="Lem unboxing experience"
                 className="w-full rounded-lg shadow-lg"
               />
@@ -618,11 +620,11 @@ export default function HomeV1() {
           <div className="bg-white p-6 rounded-lg max-w-3xl mx-auto">
             <h3 className="font-bold text-lg text-gray-900 mb-3 text-center">As Seen In:</h3>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              <img src="/timeout_logo.webp" alt="Time Out" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/tatler_logo.webp" alt="Tatler" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/sarasense_logo.webp" alt="Sarasense" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/zenify_logo.webp" alt="Zenify" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/vocal_logo.webp" alt="Vocal" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/timeout_logo.webp`} alt="Time Out" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/tatler_logo.webp`} alt="Tatler" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/sarasense_logo.webp`} alt="Sarasense" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/zenify_logo.webp`} alt="Zenify" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/vocal_logo.webp`} alt="Vocal" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
             </div>
           </div>
         </div>

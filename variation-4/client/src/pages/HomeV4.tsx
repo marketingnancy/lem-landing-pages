@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -42,11 +44,11 @@ export default function HomeV4() {
   };
 
   const galleryImages = [
-    { src: "/v4-never-need-man.jpg", alt: "Never Need Man Again - Incredible" },
-    { src: "/v4-no-age-limit.jpg", alt: "Pleasure Has No Age Limit" },
-    { src: "/v4-meet-lem.jpg", alt: "Meet Lem - your zesty new playmate" },
-    { src: "/v4-all-about-lem.jpg", alt: "All about Lem features" },
-    { src: "/v4-medical-silicone.jpg", alt: "Medical Grade Silicone" },
+    { src: `${BASE}/v4-never-need-man.jpg`, alt: "Never Need Man Again - Incredible" },
+    { src: `${BASE}/v4-no-age-limit.jpg`, alt: "Pleasure Has No Age Limit" },
+    { src: `${BASE}/v4-meet-lem.jpg`, alt: "Meet Lem - your zesty new playmate" },
+    { src: `${BASE}/v4-all-about-lem.jpg`, alt: "All about Lem features" },
+    { src: `${BASE}/v4-medical-silicone.jpg`, alt: "Medical Grade Silicone" },
   ];
 
   return (
@@ -55,7 +57,7 @@ export default function HomeV4() {
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
         <div className="container px-4 py-4">
           <div className="flex items-center justify-between">
-            <img src="/wellness-insider-logo.png" alt="Wellness Insider" className="h-8 md:h-10" />
+            <img src={`${BASE}/wellness-insider-logo.png`} alt="Wellness Insider" className="h-8 md:h-10" />
             <div className="text-right">
               <p className="text-xs text-gray-500 font-medium">Trusted Women's Health</p>
               <p className="text-xs text-gray-400">Editorial Features</p>
@@ -131,19 +133,19 @@ export default function HomeV4() {
 
       {/* Hero Image */}
       <section className="container max-w-4xl py-8">
-        <img src="/v4-never-need-man.jpg" alt="Never Need Man Again - breaking the taboo" className="w-full rounded-lg shadow-lg" />
+        <img src={`${BASE}/v4-never-need-man.jpg`} alt="Never Need Man Again - breaking the taboo" className="w-full rounded-lg shadow-lg" />
         <p className="text-sm text-gray-500 mt-2 italic">It's time to talk about what we've been taught to keep quiet. Photo: Hello Nancy</p>
       </section>
 
       {/* Video Section */}
       <section className="container max-w-4xl py-6">
         <video
-          src="/v4-video.mp4"
+          src={`${BASE}/v4-video.mp4`}
           controls
           playsInline
           preload="metadata"
           className="w-full rounded-lg shadow-lg"
-          poster="/v4-meet-lem.jpg"
+          poster={`${BASE}/v4-meet-lem.jpg`}
         >
           Your browser does not support the video tag.
         </video>
@@ -332,7 +334,7 @@ export default function HomeV4() {
 
           <div className="bg-[#FFE14D]/20 p-6 rounded-xl mb-6">
             <div className="max-w-md mx-auto mb-6">
-              <img src="/v4-all-about-lem.jpg" alt="All about Lem - Whisper-Quiet, Waterproof, Discreet" className="w-full rounded-lg shadow-lg" />
+              <img src={`${BASE}/v4-all-about-lem.jpg`} alt="All about Lem - Whisper-Quiet, Waterproof, Discreet" className="w-full rounded-lg shadow-lg" />
             </div>
             <p className="text-gray-700 leading-relaxed text-center">
               It looks like it belongs on a nightstand because it does. The bright yellow design isn't hiding anything — it's making a statement that wellness is wellness, no matter which part of your body it serves.
@@ -381,7 +383,7 @@ export default function HomeV4() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Delivered Without Judgment</h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <img src="/v4-no-age-limit.jpg" alt="Pleasure Has No Age Limit" className="w-full rounded-lg shadow-lg" />
+              <img src={`${BASE}/v4-no-age-limit.jpg`} alt="Pleasure Has No Age Limit" className="w-full rounded-lg shadow-lg" />
             </div>
             <div className="space-y-4">
               <p className="text-gray-700 leading-relaxed">
@@ -509,11 +511,11 @@ export default function HomeV4() {
           <div className="bg-white p-6 rounded-lg max-w-3xl mx-auto">
             <h3 className="font-bold text-lg text-gray-900 mb-3 text-center">As Seen In:</h3>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              <img src="/timeout_logo.webp" alt="Time Out" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/tatler_logo.webp" alt="Tatler" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/sarasense_logo.webp" alt="Sarasense" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/zenify_logo.webp" alt="Zenify" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/vocal_logo.webp" alt="Vocal" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/timeout_logo.webp`} alt="Time Out" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/tatler_logo.webp`} alt="Tatler" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/sarasense_logo.webp`} alt="Sarasense" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/zenify_logo.webp`} alt="Zenify" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/vocal_logo.webp`} alt="Vocal" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
             </div>
           </div>
         </div>

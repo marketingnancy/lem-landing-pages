@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -47,11 +49,11 @@ export default function HomeV2() {
   };
 
   const galleryImages = [
-    { src: "/v2-all-about-lem.jpg", alt: "All about Lem - Quiet, Soft, Medical-Grade" },
-    { src: "/v2-fruit-bowl.jpg", alt: "Cute Enough for the Fruit Bowl" },
-    { src: "/v2-lemon-slices.jpg", alt: "Lem in bowl with lemon slices" },
-    { src: "/v2-body-shot.jpg", alt: "Woman holding Lem" },
-    { src: "/v2-silk.jpg", alt: "Lem on white silk" },
+    { src: `${BASE}/v2-all-about-lem.jpg`, alt: "All about Lem - Quiet, Soft, Medical-Grade" },
+    { src: `${BASE}/v2-fruit-bowl.jpg`, alt: "Cute Enough for the Fruit Bowl" },
+    { src: `${BASE}/v2-lemon-slices.jpg`, alt: "Lem in bowl with lemon slices" },
+    { src: `${BASE}/v2-body-shot.jpg`, alt: "Woman holding Lem" },
+    { src: `${BASE}/v2-silk.jpg`, alt: "Lem on white silk" },
   ];
 
   return (
@@ -60,7 +62,7 @@ export default function HomeV2() {
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
         <div className="container px-4 py-4">
           <div className="flex items-center justify-between">
-            <img src="/wellness-insider-logo.png" alt="Wellness Insider" className="h-8 md:h-10" />
+            <img src={`${BASE}/wellness-insider-logo.png`} alt="Wellness Insider" className="h-8 md:h-10" />
             <div className="text-right">
               <p className="text-xs text-gray-500 font-medium">Trusted Women's Health</p>
               <p className="text-xs text-gray-400">Editorial Features</p>
@@ -138,19 +140,19 @@ export default function HomeV2() {
 
       {/* Hero Image */}
       <section className="container max-w-4xl py-8">
-        <img src="/v2-fruit-bowl.jpg" alt="Cute Enough for the Fruit Bowl — Lem disguised among real fruit" className="w-full rounded-lg shadow-lg" />
+        <img src={`${BASE}/v2-fruit-bowl.jpg`} alt="Cute Enough for the Fruit Bowl — Lem disguised among real fruit" className="w-full rounded-lg shadow-lg" />
         <p className="text-sm text-gray-500 mt-2 italic">Some things never go out of style. Your wellness is one of them. Photo: Hello Nancy</p>
       </section>
 
       {/* Video Section */}
       <section className="container max-w-4xl py-6">
         <video
-          src="/v2-video.mp4"
+          src={`${BASE}/v2-video.mp4`}
           controls
           playsInline
           preload="metadata"
           className="w-full rounded-lg shadow-lg"
-          poster="/v2-silk.jpg"
+          poster={`${BASE}/v2-silk.jpg`}
         >
           Your browser does not support the video tag.
         </video>
@@ -332,7 +334,7 @@ export default function HomeV2() {
 
           <div className="bg-[#FFE14D]/20 p-6 rounded-xl mb-6">
             <div className="max-w-md mx-auto mb-6">
-              <img src="/v2-all-about-lem.jpg" alt="All about Lem - Quiet & Discreet, Soft & Gentle, Medical-Grade Silicone" className="w-full rounded-lg shadow-lg" />
+              <img src={`${BASE}/v2-all-about-lem.jpg`} alt="All about Lem - Quiet & Discreet, Soft & Gentle, Medical-Grade Silicone" className="w-full rounded-lg shadow-lg" />
             </div>
             <p className="text-gray-700 leading-relaxed text-center">
               It doesn't look like a trend product because it isn't one. It looks like something that belongs in your life — because it does.
@@ -433,7 +435,7 @@ export default function HomeV2() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6">What Arrives at Your Door</h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <img src="/v2-body-shot.jpg" alt="Woman holding Lem - essential wellness" className="w-full rounded-lg shadow-lg" />
+              <img src={`${BASE}/v2-body-shot.jpg`} alt="Woman holding Lem - essential wellness" className="w-full rounded-lg shadow-lg" />
             </div>
             <div className="space-y-4">
               <p className="text-gray-700 leading-relaxed">
@@ -564,11 +566,11 @@ export default function HomeV2() {
           <div className="bg-white p-6 rounded-lg max-w-3xl mx-auto">
             <h3 className="font-bold text-lg text-gray-900 mb-3 text-center">As Seen In:</h3>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              <img src="/timeout_logo.webp" alt="Time Out" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/tatler_logo.webp" alt="Tatler" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/sarasense_logo.webp" alt="Sarasense" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/zenify_logo.webp" alt="Zenify" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
-              <img src="/vocal_logo.webp" alt="Vocal" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/timeout_logo.webp`} alt="Time Out" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/tatler_logo.webp`} alt="Tatler" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/sarasense_logo.webp`} alt="Sarasense" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/zenify_logo.webp`} alt="Zenify" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
+              <img src={`${BASE}/vocal_logo.webp`} alt="Vocal" className="h-8 object-contain grayscale hover:grayscale-0 transition-all" />
             </div>
           </div>
         </div>
