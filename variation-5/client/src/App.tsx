@@ -1,12 +1,16 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Route, Switch, Router } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import HomeV5 from "./pages/HomeV5";
 
-function Router() {
+const basePath = window.location.hostname.includes("github.io")
+  ? "/lem-landing-pages/v5"
+  : "";
+
+function AppRouter() {
   return (
     <Switch>
       <Route path={"/"} component={HomeV5} />
@@ -31,7 +35,9 @@ function App() {
       >
         <TooltipProvider>
           <Toaster />
-          <Router />
+          <Router base={basePath}>
+            <AppRouter />
+          </Router>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
