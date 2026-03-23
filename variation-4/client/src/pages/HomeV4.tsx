@@ -1,15 +1,25 @@
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Star, Check, Package, Shield, Truck, Clock, Award, Heart, Edit3, MessageCircle, Lock, Eye, EyeOff, Users } from "lucide-react";
+import { useState, useRef } from "react";
+import { Star, Check, Package, Shield, Truck, Clock, Award, Heart, Edit3, MessageCircle, Lock, Eye, EyeOff, Users , Volume2, VolumeX } from "lucide-react";
 import { ImageGallery } from "@/components/ImageGallery";
 
 export default function HomeV4() {
   const [showStickyBar, setShowStickyBar] = useState(false);
   const [showTimer, setShowTimer] = useState(false);
   const [timeLeft, setTimeLeft] = useState(15 * 60);
+  const [isMuted, setIsMuted] = useState(true);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted;
+      setIsMuted(!isMuted);
+    }
+  };
   const [visitorCount, setVisitorCount] = useState(1847);
 
   useEffect(() => {
@@ -139,16 +149,25 @@ export default function HomeV4() {
 
       {/* Video Section */}
       <section className="container max-w-4xl py-6">
-        <video
-          src={`${BASE}/v4-video.mp4`}
-          controls
-          playsInline
-          preload="metadata"
-          className="w-full rounded-lg shadow-lg"
-          poster={`${BASE}/v4-meet-lem.jpg`}
-        >
-          Your browser does not support the video tag.
-        </video>
+        <div className="relative rounded-lg shadow-lg overflow-hidden">
+          <video
+            ref={videoRef}
+            src={`${BASE}/v4-video.mp4`}
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full"
+            poster={`${BASE}/v4-meet-lem.jpg`}
+          />
+          <button
+            onClick={toggleMute}
+            className="absolute bottom-3 right-3 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-all"
+            aria-label={isMuted ? "Unmute" : "Mute"}
+          >
+            {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+          </button>
+        </div>
         <p className="text-sm text-gray-500 mt-2 italic">Breaking the silence — why this matters. Video: Hello Nancy</p>
       </section>
 
