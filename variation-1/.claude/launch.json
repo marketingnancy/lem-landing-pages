@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "v1-dev",
+      "runtimeExecutable": "/Users/beabianca/.fnm/node-versions/v24.14.0/installation/bin/npx",
+      "runtimeArgs": ["vite", "--host", "--port", "5175"],
+      "port": 5175
+    }
+  ]
+}

@@ -42,14 +42,11 @@ export default function HomeV4() {
   };
 
   const galleryImages = [
-    { src: "/PDP.jpg", alt: "Nancy's Lem wellness device" },
-    { src: "/PDP-1.jpg", alt: "Lem with lifestyle setting" },
-    { src: "/PDP-2.jpg", alt: "Close-up of Lem design" },
-    { src: "/PDP-9.jpg", alt: "Lem product lifestyle" },
-    { src: "/PDP-5.jpg", alt: "Lem packaging and accessories" },
-    { src: "/PDP-6.jpg", alt: "Lem lifestyle image" },
-    { src: "/PDP-7.jpg", alt: "Lem product features" },
-    { src: "/PDP-8.jpg", alt: "Lem in hand" },
+    { src: "/v4-never-need-man.jpg", alt: "Never Need Man Again - Incredible" },
+    { src: "/v4-no-age-limit.jpg", alt: "Pleasure Has No Age Limit" },
+    { src: "/v4-meet-lem.jpg", alt: "Meet Lem - your zesty new playmate" },
+    { src: "/v4-all-about-lem.jpg", alt: "All about Lem features" },
+    { src: "/v4-medical-silicone.jpg", alt: "Medical Grade Silicone" },
   ];
 
   return (
@@ -126,28 +123,31 @@ export default function HomeV4() {
       </section>
 
       {/* Editor's Note */}
-      <section className="bg-[#FFE14D]/20 py-8 md:py-10 border-b border-[#FFE14D]">
-        <div className="container max-w-4xl">
-          <div className="flex gap-3">
-            <div className="flex-shrink-0">
-              <div className="w-8 h-8 bg-[#FF1493] rounded-full flex items-center justify-center">
-                <Edit3 className="w-4 h-4 text-white" />
-              </div>
-            </div>
-            <div>
-              <p className="font-bold text-gray-900 mb-2">Editor's Note:</p>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                This article contains affiliate links. When you purchase through our links, we may earn a commission at no extra cost to you. We only recommend products our editorial team has thoroughly researched and believes will benefit our readers. All opinions are our own.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="container max-w-4xl px-4 pt-3">
+        <p className="text-[10px] text-gray-400 leading-tight">
+          <span className="font-medium text-gray-500">Editor's Note:</span> This article contains affiliate links. We may earn a commission at no extra cost to you. All opinions are our own.
+        </p>
+      </div>
 
       {/* Hero Image */}
       <section className="container max-w-4xl py-8">
-        <img src="/PDP-6.jpg" alt="Woman embracing wellness" className="w-full rounded-lg shadow-lg" />
+        <img src="/v4-never-need-man.jpg" alt="Never Need Man Again - breaking the taboo" className="w-full rounded-lg shadow-lg" />
         <p className="text-sm text-gray-500 mt-2 italic">It's time to talk about what we've been taught to keep quiet. Photo: Hello Nancy</p>
+      </section>
+
+      {/* Video Section */}
+      <section className="container max-w-4xl py-6">
+        <video
+          src="/v4-video.mp4"
+          controls
+          playsInline
+          preload="metadata"
+          className="w-full rounded-lg shadow-lg"
+          poster="/v4-meet-lem.jpg"
+        >
+          Your browser does not support the video tag.
+        </video>
+        <p className="text-sm text-gray-500 mt-2 italic">Breaking the silence — why this matters. Video: Hello Nancy</p>
       </section>
 
       {/* Live Reader Count */}
@@ -332,7 +332,7 @@ export default function HomeV4() {
 
           <div className="bg-[#FFE14D]/20 p-6 rounded-xl mb-6">
             <div className="max-w-md mx-auto mb-6">
-              <img src="/discretion_illustration.png" alt="Lem on nightstand" className="w-full rounded-lg shadow-lg" />
+              <img src="/v4-all-about-lem.jpg" alt="All about Lem - Whisper-Quiet, Waterproof, Discreet" className="w-full rounded-lg shadow-lg" />
             </div>
             <p className="text-gray-700 leading-relaxed text-center">
               It looks like it belongs on a nightstand because it does. The bright yellow design isn't hiding anything — it's making a statement that wellness is wellness, no matter which part of your body it serves.
@@ -370,16 +370,6 @@ export default function HomeV4() {
             </Card>
           </div>
 
-          {/* Product Video */}
-          <div className="mb-8">
-            <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">See It in Action</h3>
-            <div className="max-w-2xl mx-auto rounded-xl overflow-hidden shadow-lg">
-              <video autoPlay muted loop playsInline className="w-full">
-                <source src="/lem_video.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-
           <div>
             <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Product Gallery</h3>
             <ImageGallery images={galleryImages} />
@@ -391,7 +381,7 @@ export default function HomeV4() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Delivered Without Judgment</h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <img src="/lem_product_packaging.jpeg" alt="Lem discreet packaging" className="w-full rounded-lg shadow-lg" />
+              <img src="/v4-no-age-limit.jpg" alt="Pleasure Has No Age Limit" className="w-full rounded-lg shadow-lg" />
             </div>
             <div className="space-y-4">
               <p className="text-gray-700 leading-relaxed">

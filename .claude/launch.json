@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "v1-dev",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["-c", "export PATH=/Users/beabianca/.fnm/node-versions/v24.14.0/installation/bin:$PATH && cd /Users/beabianca/lem-landing-pages/variation-1 && npx vite --host"],
+      "port": 3000
+    }
+  ]
+}

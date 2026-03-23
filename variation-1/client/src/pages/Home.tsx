@@ -64,14 +64,14 @@ export default function Home() {
   };
 
   const galleryImages = [
-    { src: "/PDP.jpg", alt: "Nancy's Lem wellness device" },
+    { src: "/v1-self-love-manual.jpg", alt: "Self-love manual cards" },
+    { src: "/v1-medical-silicone.jpg", alt: "Medical grade silicone - gentle on skin" },
+    { src: "/v1-12-patterns.jpg", alt: "12 Patterns, Endless Possibilities" },
+    { src: "/v1-all-about-lem.jpg", alt: "All about Lem features" },
+    { src: "/v1-happy-customers.jpg", alt: "Join 500,000+ Happy Customers" },
     { src: "/PDP-1.jpg", alt: "Lem with lifestyle setting" },
     { src: "/PDP-2.jpg", alt: "Close-up of Lem design" },
-    { src: "/PDP-3.jpg", alt: "Lem product details" },
-    { src: "/PDP-4.jpg", alt: "Lem in use demonstration" },
-    { src: "/PDP-5.jpg", alt: "Lem packaging and accessories" },
-    { src: "/PDP-6.jpg", alt: "Lem lifestyle image" },
-    { src: "/PDP-7.jpg", alt: "Lem product features" },
+    { src: "/PDP-8.jpg", alt: "Lem held in hand" },
   ];
 
   return (
@@ -167,32 +167,35 @@ export default function Home() {
       </section>
 
       {/* Editor's Note */}
-      <section className="bg-[#FFE14D]/20 py-8 md:py-10 border-b border-[#FFE14D]">
-        <div className="container max-w-4xl">
-          <div className="flex gap-3">
-            <div className="flex-shrink-0">
-              <div className="w-8 h-8 bg-[#FF1493] rounded-full flex items-center justify-center">
-                <Edit3 className="w-4 h-4 text-white" />
-              </div>
-            </div>
-            <div>
-              <p className="font-bold text-gray-900 mb-2">Editor's Note:</p>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                This article contains affiliate links. When you purchase through our links, we may earn a commission at no extra cost to you. We only recommend products our editorial team has thoroughly researched and believes will benefit our readers. All opinions are our own.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="container max-w-4xl px-4 pt-3">
+        <p className="text-[10px] text-gray-400 leading-tight">
+          <span className="font-medium text-gray-500">Editor's Note:</span> This article contains affiliate links. We may earn a commission at no extra cost to you. All opinions are our own.
+        </p>
+      </div>
 
       {/* Hero Image */}
       <section className="container max-w-4xl py-8">
-        <img 
-          src="/PDP.jpg" 
-          alt="Nancy's Lem wellness device on nightstand" 
+        <img
+          src="/v1-self-love-manual.jpg"
+          alt="Self-love manual - A guide for anyone who's still figuring it out"
           className="w-full rounded-lg shadow-lg"
         />
-        <p className="text-sm text-gray-500 mt-2 italic">The Nancy's Lem sits discreetly on a nightstand—most people think it's a decorative lemon. Photo: Hello Nancy</p>
+        <p className="text-sm text-gray-500 mt-2 italic">Your self-love journey starts here — a manual for anyone who's still figuring it out. Photo: Hello Nancy</p>
+      </section>
+
+      {/* Video Section */}
+      <section className="container max-w-4xl py-6">
+        <video
+          src="/v1-video.mp4"
+          controls
+          playsInline
+          preload="metadata"
+          className="w-full rounded-lg shadow-lg"
+          poster="/v1-12-patterns.jpg"
+        >
+          Your browser does not support the video tag.
+        </video>
+        <p className="text-sm text-gray-500 mt-2 italic">See Lem in action — real women, real moments. Video: Hello Nancy</p>
       </section>
 
       {/* Trust Indicators */}
@@ -385,11 +388,11 @@ export default function Home() {
           <div className="bg-[#FFE14D]/20 p-6 rounded-xl mb-6">
             <h3 className="font-bold text-lg text-gray-900 mb-3">The "Nightstand Test"</h3>
             
-            {/* Discretion Illustration */}
+            {/* All About Lem Features */}
             <div className="max-w-md mx-auto mb-6">
-              <img 
-                src="/discretion_illustration.png" 
-                alt="Lem device sitting discreetly on nightstand" 
+              <img
+                src="/v1-all-about-lem.jpg"
+                alt="All about Lem - Whisper-Quiet, Waterproof, Discreet shipping, Simple and Effective"
                 className="w-full rounded-lg shadow-lg"
               />
             </div>
@@ -471,9 +474,9 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6">The Unboxing Experience: First Impressions Matter</h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <img 
-                src="/PDP-5.jpg" 
-                alt="Lem unboxing experience" 
+              <img
+                src="/v1-medical-silicone.jpg"
+                alt="Medical Grade Silicone - Gentle, medical grade silicone that loves your skin back"
                 className="w-full rounded-lg shadow-lg"
               />
             </div>
@@ -638,28 +641,28 @@ export default function Home() {
             <div className="bg-gradient-to-br from-[#FF1493]/10 to-[#FFE14D]/10 p-8 rounded-xl">
               <h3 className="font-bold text-xl text-gray-900 mb-4">Ways Couples Are Using Lem:</h3>
               <div className="space-y-4">
-                <div className="flex gap-3">
+                <div className="flex gap-2 items-center">
                   <div className="w-8 h-8 bg-[#FF1493] rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold">1</div>
                   <div>
                     <p className="font-semibold text-gray-900">During Foreplay</p>
                     <p className="text-sm text-gray-600">Partner holds it in place while kissing and touching</p>
                   </div>
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-2 items-center">
                   <div className="w-8 h-8 bg-[#FF1493] rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold">2</div>
                   <div>
                     <p className="font-semibold text-gray-900">During Intercourse</p>
                     <p className="text-sm text-gray-600">Positioned for simultaneous clitoral and penetrative stimulation</p>
                   </div>
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-2 items-center">
                   <div className="w-8 h-8 bg-[#FF1493] rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold">3</div>
                   <div>
                     <p className="font-semibold text-gray-900">Solo with Partner Watching</p>
                     <p className="text-sm text-gray-600">Builds intimacy and helps partners learn what works</p>
                   </div>
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-2 items-center">
                   <div className="w-8 h-8 bg-[#FF1493] rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold">4</div>
                   <div>
                     <p className="font-semibold text-gray-900">"Maintenance" Between Sessions</p>
