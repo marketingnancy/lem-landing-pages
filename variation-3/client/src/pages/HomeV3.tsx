@@ -133,7 +133,7 @@ export default function HomeV3() {
 
       {/* Hero Image */}
       <section className="container max-w-4xl py-8">
-        <img src={`${BASE}/v3-self-love-manual.jpg`} alt="Self-love manual — for anyone who's still figuring it out" className="w-full rounded-lg shadow-lg" />
+        <img src={`${BASE}/v3-solo-partner.jpg`} alt="Solo? Partner? Always Yes — self-care redefined" className="w-full rounded-lg shadow-lg" />
         <p className="text-sm text-gray-500 mt-2 italic">Real self-care goes deeper than the surface. Photo: Hello Nancy</p>
       </section>
 
@@ -145,7 +145,7 @@ export default function HomeV3() {
           playsInline
           preload="metadata"
           className="w-full rounded-lg shadow-lg"
-          poster={`${BASE}/v3-solo-partner.jpg`}
+          poster={`${BASE}/v3-self-love-manual.jpg`}
         >
           Your browser does not support the video tag.
         </video>
