@@ -471,7 +471,7 @@ export default function HomeV5() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
-                src={`${BASE}/v5-no-age-limit.jpg`}
+                src={`${BASE}/v5-pink-silk.jpg`}
                 alt="Lem unboxing experience"
                 className="w-full rounded-lg shadow-lg"
               />
