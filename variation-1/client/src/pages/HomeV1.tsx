@@ -263,7 +263,12 @@ export default function HomeV1() {
             </p>
           </div>
 
-          <p className="text-gray-700 leading-relaxed">
+          <div className="bg-gradient-to-r from-[#FFE14D]/30 to-[#FF1493]/30 p-6 rounded-lg">
+            <p className="text-2xl font-bold text-gray-900 mb-2 italic">"Stop vibrating. Start sucking."</p>
+            <p className="text-gray-700">— Pelvic Floor Specialists</p>
+          </div>
+
+          <p className="text-gray-700 leading-relaxed mt-6">
             Gynecologists specializing in menopause care explain: "When estrogen drops, blood flow to the pelvic region decreases. The medical community calls it the 'use it or lose it' principle — you need consistent blood flow to maintain tissue health." <strong>Pleasure has no age limit.</strong> But it does require maintenance.
           </p>
         </div>
@@ -386,7 +391,7 @@ export default function HomeV1() {
 
             <div className="max-w-md mx-auto mb-6">
               <img
-                src={`${BASE}/v1-all-about-lem.jpg`}
+                src={`${BASE}/discretion_illustration.png`}
                 alt="Lem device sitting discreetly on nightstand"
                 className="w-full rounded-lg shadow-lg"
               />
@@ -496,6 +501,9 @@ export default function HomeV1() {
                   </li>
                 </ul>
               </div>
+              <p className="text-gray-700 leading-relaxed italic">
+                "When I opened the box, I was genuinely surprised by how <strong>premium</strong> everything felt. It didn't feel like a 'sex toy' — it felt like a wellness investment." — Test User, Age 54
+              </p>
             </div>
           </div>
         </div>
@@ -503,6 +511,15 @@ export default function HomeV1() {
         {/* 7h. Anatomy/Education Section */}
         <div className="my-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">Let's Talk Anatomy: Why Clitoral Stimulation Matters</h2>
+
+          {/* Anatomy Illustration */}
+          <div className="max-w-3xl mx-auto mb-8">
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663029843654/pHZgvlGDtaFFllLw.png"
+              alt="Clitoral anatomy cross-section diagram"
+              className="w-full rounded-xl shadow-2xl"
+            />
+          </div>
 
           <div className="bg-[#FF1493]/5 p-8 rounded-xl border-2 border-[#FF1493]/20">
             <div className="flex gap-4 mb-6">
@@ -522,6 +539,16 @@ export default function HomeV1() {
 
               <div className="bg-white p-6 rounded-lg my-6">
                 <h4 className="font-bold text-lg text-gray-900 mb-4">What Happens During Menopause:</h4>
+
+                {/* Menopause Before/After Illustration */}
+                <div className="mb-6">
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663029843654/UZuPatTzzMEqEiGm.png"
+                    alt="Blood flow comparison before and after menopause"
+                    className="w-full rounded-lg shadow-lg"
+                  />
+                </div>
+
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <p className="font-semibold text-[#FF1493]">❌ The Problem:</p>
@@ -683,6 +710,38 @@ export default function HomeV1() {
               </CardContent>
             </Card>
           </div>
+
+          <div className="mt-8 max-w-3xl mx-auto bg-gradient-to-r from-[#FFE14D]/30 to-[#FF1493]/30 p-8 rounded-xl">
+            <h3 className="font-bold text-2xl text-gray-900 mb-4 text-center">The Real Question: What Do You Have to Lose?</h3>
+            <div className="space-y-3 text-gray-700">
+              <p className="text-center leading-relaxed">
+                We've covered the science. We've shown you the reviews. We've explained the guarantees. At this point, the only risk is <em>not</em> trying it.
+              </p>
+              <div className="bg-white p-6 rounded-lg">
+                <p className="font-semibold text-center text-lg text-gray-900 mb-3">Let's Do the Math:</p>
+                <div className="grid md:grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <p className="font-semibold text-[#FF1493] mb-2">If You Try It:</p>
+                    <ul className="space-y-1 text-gray-600">
+                      <li>✓ Might rediscover pleasure you thought was gone</li>
+                      <li>✓ Could improve tissue health and prevent atrophy</li>
+                      <li>✓ May sleep better (orgasms release oxytocin)</li>
+                      <li>✓ Worst case: Get your $89 back</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-gray-500 mb-2">If You Don't:</p>
+                    <ul className="space-y-1 text-gray-600">
+                      <li>• Tissue atrophy continues</li>
+                      <li>• Nerve sensitivity keeps declining</li>
+                      <li>• Sexual wellness remains a struggle</li>
+                      <li>• You'll always wonder "what if?"</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* 7k. Credibility Section */}
@@ -752,9 +811,9 @@ export default function HomeV1() {
                     <Star key={star} className="w-5 h-5 fill-[#FFE14D] text-[#FFE14D]" />
                   ))}
                 </div>
-                <p className="font-bold text-gray-900">"It Works... Every Time"</p>
+                <p className="font-bold text-gray-900">"Under a Minute — It Works Every Time"</p>
                 <p className="text-gray-700 italic">
-                  "I've tried SO many things over the years. Nothing worked consistently. This thing? It works. EVERY. SINGLE. TIME. I was genuinely shocked the first time — and the second, and the third. It's not a fluke. It just works."
+                  "Under a minute. I'm not exaggerating. I literally timed it because I couldn't believe it. And it works EVERY. SINGLE. TIME. After years of nothing working, this little yellow thing just... works. I was genuinely shocked."
                 </p>
                 <p className="font-semibold text-gray-900">- Sarah J., 58</p>
                 <p className="text-xs text-gray-500">✓ Verified Purchase</p>
@@ -768,9 +827,9 @@ export default function HomeV1() {
                     <Star key={star} className="w-5 h-5 fill-[#FFE14D] text-[#FFE14D]" />
                   ))}
                 </div>
-                <p className="font-bold text-gray-900">"Under a Minute — I Wasn't Expecting That"</p>
+                <p className="font-bold text-gray-900">"HOLY MOLY — WOW Is an Understatement"</p>
                 <p className="text-gray-700 italic">
-                  "I'm not exaggerating — under a minute. I literally timed it because I couldn't believe it. After YEARS of nothing working, this little yellow thing did it in seconds. I cried. Happy tears obviously lol"
+                  "HOLY MOLY. I don't even know where to begin. WOW is an understatement. I've been missing out on THIS?! My whole body was shaking. I had to just lie there for five minutes afterward processing what just happened. Ladies — just buy it. Trust me."
                 </p>
                 <p className="font-semibold text-gray-900">- Carly, 52</p>
                 <p className="text-xs text-gray-500">✓ Verified Purchase</p>
@@ -784,9 +843,9 @@ export default function HomeV1() {
                     <Star key={star} className="w-5 h-5 fill-[#FFE14D] text-[#FFE14D]" />
                   ))}
                 </div>
-                <p className="font-bold text-gray-900">"Permanent Nightstand Position"</p>
+                <p className="font-bold text-gray-900">"My Little Secret — Permanent Nightstand Position"</p>
                 <p className="text-gray-700 italic">
-                  "It hasn't left my nightstand since the day it arrived. My husband thinks it's a stress ball. My daughter thinks it's a bath toy. Nobody knows and I LOVE that. Best purchase I've made for myself in years."
+                  "It's my little secret. It hasn't left my nightstand since the day it arrived. My husband thinks it's a stress ball. My daughter thinks it's a bath toy. Nobody knows and I LOVE that. Permanent nightstand position — best purchase I've made for myself in years."
                 </p>
                 <p className="font-semibold text-gray-900">- Alisha, 61</p>
                 <p className="text-xs text-gray-500">✓ Verified Purchase</p>
@@ -800,9 +859,9 @@ export default function HomeV1() {
                     <Star key={star} className="w-5 h-5 fill-[#FFE14D] text-[#FFE14D]" />
                   ))}
                 </div>
-                <p className="font-bold text-gray-900">"Told All My Girlfriends"</p>
+                <p className="font-bold text-gray-900">"Told All My Girlfriends — Wish I Found This Sooner"</p>
                 <p className="text-gray-700 italic">
-                  "OK I don't usually review things but I HAD to. I've already told my three best friends and my sister. We're all in our 50s and we're all dealing with the same stuff nobody talks about. This little lemon is a GAME CHANGER. You need this!!"
+                  "I've already told all my girlfriends about this. We're all in our 50s and we're all dealing with the same stuff nobody talks about. I just wish I found this sooner. This little lemon is a GAME CHANGER. Don't wait like I did — you need this!!"
                 </p>
                 <p className="font-semibold text-gray-900">- Maxine, 54</p>
                 <p className="text-xs text-gray-500">✓ Verified Purchase</p>
