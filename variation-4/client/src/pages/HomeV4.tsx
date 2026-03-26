@@ -149,7 +149,7 @@ export default function HomeV4() {
             Why Are Women Still Embarrassed to Talk About This? (And Why 500,000 of Them Bought It Anyway)
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 mb-6 leading-relaxed">
-            Sex is personal. That's exactly why this lemon-shaped device is outselling every vibrator on the market — quietly, discreetly, and unapologetically.
+            Sex is personal. That's exactly why this lemon-shaped device is outselling every intimate wellness product on the market — quietly, discreetly, and unapologetically.
           </p>
           <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600 border-t border-gray-200 pt-4">
             <div className="flex items-center gap-2">
@@ -244,10 +244,10 @@ export default function HomeV4() {
           <div className="bg-white p-6 rounded-lg border-l-4 border-[#FF1493] my-6">
             <h3 className="font-bold text-lg text-gray-900 mb-3">"The Great Disconnect"</h3>
             <p className="text-gray-700 leading-relaxed mb-3">
-              For many women we interviewed, it wasn't just dryness. It was the <strong>numbness</strong>. One tester described trying to use her old vibrator from her 30s: "Instead of feeling good, it just felt... irritating. Or numb. Like trying to tickle a callus."
+              For many women we interviewed, it wasn't just dryness. It was the <strong>numbness</strong>. One tester described trying to use her old device from her 30s: "Instead of feeling good, it just felt... irritating. Or numb. Like trying to tickle a callus."
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Medical experts explain that traditional vibrators work by friction and impact. When tissues are thinning due to low estrogen, direct vibration can actually <em>desensitize the nerves further</em>, leading to that "numb" feeling.
+              Medical experts explain that traditional devices work by friction and impact. When tissues are thinning due to low estrogen, direct vibration can actually <em>desensitize the nerves further</em>, leading to that "numb" feeling.
             </p>
           </div>
 
@@ -268,7 +268,7 @@ export default function HomeV4() {
             That's where this little yellow device comes in. The Nancy's Lem isn't marketed as a sex toy—it's positioned as a wellness device. And after our research, we understand why. For too long, products like this have been wrapped in shame. The Lem takes a different approach entirely.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Unlike traditional vibrators that rely on friction (which can irritate thinned menopausal tissue), the Lem uses something called <strong>Air Pulse Technology</strong>. Think of it as the difference between rubbing sandpaper on your skin versus using a gentle vacuum massage.
+            Unlike traditional devices that rely on friction (which can irritate thinned menopausal tissue), the Lem uses something called <strong>Air Pulse Technology</strong>. Think of it as the difference between rubbing sandpaper on your skin versus using a gentle vacuum massage.
           </p>
         </div>
 
@@ -278,7 +278,7 @@ export default function HomeV4() {
 
           <div className="space-y-4 max-w-2xl mx-auto mb-6">
             <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded">
-              <p className="font-semibold text-red-800 mb-2">Traditional Vibrators:</p>
+              <p className="font-semibold text-red-800 mb-2">Traditional Devices:</p>
               <p className="text-red-700 text-sm">Rely on surface friction that can irritate sensitive, thinned tissue. May cause numbness or micro-tears.</p>
             </div>
             <div className="bg-green-50 border-l-4 border-green-400 p-4 rounded">
@@ -312,7 +312,7 @@ export default function HomeV4() {
                 <tr className="bg-gray-100">
                   <th className="border border-gray-300 p-4 text-left font-bold">Feature</th>
                   <th className="border border-gray-300 p-4 text-center bg-[#FFE14D]/30 font-bold">Nancy's Lem</th>
-                  <th className="border border-gray-300 p-4 text-center font-bold">Traditional Vibrator</th>
+                  <th className="border border-gray-300 p-4 text-center font-bold">Traditional Device</th>
                   <th className="border border-gray-300 p-4 text-center font-bold">Estrogen Cream</th>
                 </tr>
               </thead>
@@ -1060,7 +1060,7 @@ export default function HomeV4() {
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-[#FF1493] flex-shrink-0 mt-0.5" />
-                    <span>Finding traditional vibrators too harsh or irritating</span>
+                    <span>Finding traditional devices too harsh or irritating</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-[#FF1493] flex-shrink-0 mt-0.5" />

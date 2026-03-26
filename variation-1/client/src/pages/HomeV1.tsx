@@ -254,10 +254,10 @@ export default function HomeV1() {
           <div className="bg-white p-6 rounded-lg border-l-4 border-[#FF1493] my-6">
             <h3 className="font-bold text-lg text-gray-900 mb-3">"The Great Disconnect"</h3>
             <p className="text-gray-700 leading-relaxed mb-3">
-              For many women we interviewed, it wasn't just dryness. It was the <strong>numbness</strong>. One reader described trying to use her old vibrator: "Instead of feeling good, it just felt... irritating. Or numb."
+              For many women we interviewed, it wasn't just dryness. It was the <strong>numbness</strong>. One reader described trying to use her old device: "Instead of feeling good, it just felt... irritating. Or numb."
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Medical experts explain that traditional vibrators rely on friction and impact. When tissues are thinning due to low estrogen, direct vibration can actually <em>desensitize nerves further</em>.
+              Medical experts explain that traditional devices rely on friction and impact. When tissues are thinning due to low estrogen, direct vibration can actually <em>desensitize nerves further</em>.
             </p>
           </div>
 
@@ -278,7 +278,7 @@ export default function HomeV1() {
             When we started researching intimate wellness tools designed for women going through these changes, one product kept coming up in conversations with readers, gynecologists, and pelvic floor specialists: the Nancy's Lem.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            What makes it different from traditional devices isn't marketing — it's the mechanism. Unlike traditional vibrators that rely on friction (which can irritate thinned tissue), the Lem uses something called <strong>Air Pulse Technology</strong>. Think of it as the difference between rubbing sore muscles and using a massage gun — one works with your body, the other can work against it.
+            What makes it different from traditional devices isn't marketing — it's the mechanism. Unlike traditional devices that rely on friction (which can irritate thinned tissue), the Lem uses something called <strong>Air Pulse Technology</strong>. Think of it as the difference between rubbing sore muscles and using a massage gun — one works with your body, the other can work against it.
           </p>
           <p className="text-gray-700 leading-relaxed">
             And the results? Women report finishing in <strong>under a minute</strong>. Not 20 minutes of mental gymnastics — literally seconds to feeling something real again. As one customer put it: "It works... every time."
@@ -291,7 +291,7 @@ export default function HomeV1() {
 
           <div className="space-y-4 max-w-2xl mx-auto mb-6">
             <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded">
-              <p className="font-semibold text-red-800 mb-2">❌ Traditional Vibrators:</p>
+              <p className="font-semibold text-red-800 mb-2">❌ Traditional Devices:</p>
               <p className="text-red-700 text-sm">Rely on surface friction that can irritate sensitive, thinned tissue. May cause numbness or micro-tears.</p>
             </div>
             <div className="bg-green-50 border-l-4 border-green-400 p-4 rounded">
@@ -325,7 +325,7 @@ export default function HomeV1() {
                 <tr className="bg-gray-100">
                   <th className="border border-gray-300 p-4 text-left font-bold">Feature</th>
                   <th className="border border-gray-300 p-4 text-center bg-[#FFE14D]/30 font-bold">Nancy's Lem</th>
-                  <th className="border border-gray-300 p-4 text-center font-bold">Traditional Vibrator</th>
+                  <th className="border border-gray-300 p-4 text-center font-bold">Traditional Device</th>
                   <th className="border border-gray-300 p-4 text-center font-bold">Estrogen Cream</th>
                 </tr>
               </thead>
@@ -1025,7 +1025,7 @@ export default function HomeV1() {
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-[#FF1493] flex-shrink-0 mt-0.5" />
-                    <span>Finding traditional vibrators too harsh or irritating</span>
+                    <span>Finding traditional devices too harsh or irritating</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-[#FF1493] flex-shrink-0 mt-0.5" />
