@@ -494,12 +494,12 @@ export default function HomeV4() {
                 <img
                   src={`${BASE}/v4-unbox-detail1.jpg`}
                   alt="Lem device with accessories"
-                  className="w-full rounded-lg shadow-md"
+                  className="w-full aspect-square object-cover rounded-lg shadow-md"
                 />
                 <img
                   src={`${BASE}/v4-unbox-detail2.jpg`}
                   alt="Lem unboxing contents"
-                  className="w-full rounded-lg shadow-md"
+                  className="w-full aspect-square object-cover rounded-lg shadow-md"
                 />
               </div>
             </div>
@@ -856,7 +856,7 @@ export default function HomeV4() {
                 </div>
                 <p className="font-bold text-gray-900">"HOLY MOLY"</p>
                 <p className="text-gray-700 italic">
-                  "WOW is an understatement. I was literally gasping for air. I never expected to feel this way — under a minute, no exaggeration. I've already told all my girlfriends."
+                  "WOW is an understatement. I was literally gasping for air. I never expected to feel this way — under 5 minutes, no exaggeration. I've already told all my girlfriends."
                 </p>
                 <p className="font-semibold text-gray-900">- Rachel K., 47</p>
                 <p className="text-xs text-gray-500">Verified Purchase</p>

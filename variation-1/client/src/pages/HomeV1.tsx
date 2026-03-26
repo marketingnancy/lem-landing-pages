@@ -280,7 +280,7 @@ export default function HomeV1() {
             What makes it different from traditional devices isn't marketing — it's the mechanism. Unlike traditional devices that rely on friction (which can irritate thinned tissue), the Lem uses something called <strong>Air Pulse Technology</strong>. Think of it as the difference between rubbing sore muscles and using a massage gun — one works with your body, the other can work against it.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            And the results? Women report finishing in <strong>under a minute</strong>. Not 20 minutes of mental gymnastics — literally seconds to feeling something real again. As one customer put it: "It works... every time."
+            And the results? Women report finishing in <strong>under 5 minutes</strong>. Not 20 minutes of mental gymnastics — just a few minutes to feeling something real again. As one customer put it: "It works... every time."
           </p>
         </div>
 
@@ -349,7 +349,7 @@ export default function HomeV1() {
                 </tr>
                 <tr>
                   <td className="border border-gray-300 p-4 font-medium">Immediate Pleasure</td>
-                  <td className="border border-gray-300 p-4 text-center bg-[#FFE14D]/10">✅ Under a minute</td>
+                  <td className="border border-gray-300 p-4 text-center bg-[#FFE14D]/10">✅ under 5 minutes</td>
                   <td className="border border-gray-300 p-4 text-center">⚠️ Variable</td>
                   <td className="border border-gray-300 p-4 text-center">❌ No pleasure</td>
                 </tr>
@@ -472,12 +472,12 @@ export default function HomeV1() {
                 <img
                   src={`${BASE}/v1-unbox-detail1.jpg`}
                   alt="Lem device with accessories"
-                  className="w-full rounded-lg shadow-md"
+                  className="w-full aspect-square object-cover rounded-lg shadow-md"
                 />
                 <img
                   src={`${BASE}/v1-unbox-detail2.jpg`}
                   alt="Lem unboxing contents"
-                  className="w-full rounded-lg shadow-md"
+                  className="w-full aspect-square object-cover rounded-lg shadow-md"
                 />
               </div>
             </div>
@@ -601,9 +601,9 @@ export default function HomeV1() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6">"But What About My Partner?" We Asked That Too</h2>
 
           <div className="bg-gradient-to-r from-[#FFE14D]/20 to-[#FF1493]/20 p-8 rounded-xl mb-8">
-            <h3 className="font-bold text-2xl text-gray-900 mb-4">Under a Minute (And Why Partners Love It)</h3>
+            <h3 className="font-bold text-2xl text-gray-900 mb-4">under 5 minutes (And Why Partners Love It)</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              For many women over 45, it can take 20+ minutes (and a lot of mental gymnastics) to get anywhere near climax. With the Lem? <strong className="text-[#FF1493]">Under a minute.</strong> Literally seconds for some women. It works every single time.
+              For many women over 45, it can take 20+ minutes (and a lot of mental gymnastics) to get anywhere near climax. With the Lem? <strong className="text-[#FF1493]">under 5 minutes.</strong> Just a few minutes for some women. It works every single time.
             </p>
             <div className="bg-white p-6 rounded-lg">
               <p className="text-lg text-gray-900 mb-3">
@@ -820,9 +820,9 @@ export default function HomeV1() {
                     <Star key={star} className="w-5 h-5 fill-[#FFE14D] text-[#FFE14D]" />
                   ))}
                 </div>
-                <p className="font-bold text-gray-900">"Under a Minute — It Works Every Time"</p>
+                <p className="font-bold text-gray-900">"under 5 minutes — It Works Every Time"</p>
                 <p className="text-gray-700 italic">
-                  "Under a minute. I'm not exaggerating. I literally timed it because I couldn't believe it. And it works EVERY. SINGLE. TIME. After years of nothing working, this little yellow thing just... works. I was genuinely shocked."
+                  "under 5 minutes. I'm not exaggerating. I literally timed it because I couldn't believe it. And it works EVERY. SINGLE. TIME. After years of nothing working, this little yellow thing just... works. I was genuinely shocked."
                 </p>
                 <p className="font-semibold text-gray-900">- Sarah J., 58</p>
                 <p className="text-xs text-gray-500">✓ Verified Purchase</p>

@@ -350,7 +350,7 @@ export default function HomeV5() {
                 </tr>
                 <tr>
                   <td className="border border-gray-300 p-4 font-medium">Immediate Pleasure</td>
-                  <td className="border border-gray-300 p-4 text-center bg-[#FFE14D]/10">Under a minute</td>
+                  <td className="border border-gray-300 p-4 text-center bg-[#FFE14D]/10">under 5 minutes</td>
                   <td className="border border-gray-300 p-4 text-center">Variable</td>
                   <td className="border border-gray-300 p-4 text-center">No pleasure</td>
                 </tr>
@@ -482,12 +482,12 @@ export default function HomeV5() {
                 <img
                   src={`${BASE}/v5-unbox-detail1.jpg`}
                   alt="Lem device with accessories"
-                  className="w-full rounded-lg shadow-md"
+                  className="w-full aspect-square object-cover rounded-lg shadow-md"
                 />
                 <img
                   src={`${BASE}/v5-unbox-detail2.jpg`}
                   alt="Lem unboxing contents"
-                  className="w-full rounded-lg shadow-md"
+                  className="w-full aspect-square object-cover rounded-lg shadow-md"
                 />
               </div>
             </div>
@@ -858,9 +858,9 @@ export default function HomeV5() {
                     <Star key={star} className="w-5 h-5 fill-[#FFE14D] text-[#FFE14D]" />
                   ))}
                 </div>
-                <p className="font-bold text-gray-900">"Under a Minute — Every Time"</p>
+                <p className="font-bold text-gray-900">"under 5 minutes — Every Time"</p>
                 <p className="text-gray-700 italic">
-                  "Under a minute. Literally seconds sometimes. It works every single time. I can't believe I waited this long. I sat there in disbelief the first time."
+                  "under 5 minutes. Just a few minutes sometimes. It works every single time. I can't believe I waited this long. I sat there in disbelief the first time."
                 </p>
                 <p className="font-semibold text-gray-900">- Carly, Verified Buyer</p>
                 <p className="text-xs text-gray-500">Verified Purchase</p>

@@ -497,12 +497,12 @@ export default function HomeV3() {
                 <img
                   src={`${BASE}/v3-unbox-detail1.jpg`}
                   alt="Lem device with accessories"
-                  className="w-full rounded-lg shadow-md"
+                  className="w-full aspect-square object-cover rounded-lg shadow-md"
                 />
                 <img
                   src={`${BASE}/v3-unbox-detail2.jpg`}
                   alt="Lem unboxing contents"
-                  className="w-full rounded-lg shadow-md"
+                  className="w-full aspect-square object-cover rounded-lg shadow-md"
                 />
               </div>
             </div>
