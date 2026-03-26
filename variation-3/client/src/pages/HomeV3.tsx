@@ -76,7 +76,6 @@ export default function HomeV3() {
     { src: `${BASE}/v3-body-shot.jpg`, alt: "Woman holding Lem" },
     { src: `${BASE}/v3-happy-customers.jpg`, alt: "Join 500,000+ Happy Customers" },
     { src: `${BASE}/v3-solo-partner.jpg`, alt: "Solo? Partner? Always Yes." },
-    { src: `${BASE}/v3-solo-partner.jpg`, alt: "Self-love manual cards" },
     { src: `${BASE}/v3-bowl-lemons.jpg`, alt: "Lem in bowl with lemon slices" },
   ];
 
@@ -195,7 +194,7 @@ export default function HomeV3() {
             loop
             playsInline
             className="w-full"
-            poster={`${BASE}/v3-solo-partner.jpg`}
+            poster={`${BASE}/v3-bowl-lemons.jpg`}
           />
           <button
             onClick={toggleMute}
@@ -406,7 +405,7 @@ export default function HomeV3() {
             {/* Discretion Illustration */}
             <div className="max-w-md mx-auto mb-6">
               <img
-                src={`${BASE}/v3-solo-partner.jpg`}
+                src={`${BASE}/v3-nightstand.jpg`}
                 alt="Lem device sitting discreetly on nightstand"
                 className="w-full rounded-lg shadow-lg"
               />

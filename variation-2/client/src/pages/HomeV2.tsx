@@ -398,7 +398,7 @@ export default function HomeV2() {
             {/* Discretion Illustration */}
             <div className="max-w-md mx-auto mb-6">
               <img
-                src={`${BASE}/v2-all-about-lem.jpg`}
+                src={`${BASE}/v2-nightstand.jpg`}
                 alt="All about Lem - Quiet & Discreet, Soft & Gentle, Medical-Grade Silicone"
                 className="w-full rounded-lg shadow-lg"
               />

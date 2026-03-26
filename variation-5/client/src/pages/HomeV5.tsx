@@ -387,7 +387,7 @@ export default function HomeV5() {
             {/* Discretion Illustration */}
             <div className="max-w-md mx-auto mb-6">
               <img
-                src={`${BASE}/v5-all-about-lem.jpg`}
+                src={`${BASE}/v5-nightstand.jpg`}
                 alt="Lem device sitting discreetly on nightstand"
                 className="w-full rounded-lg shadow-lg"
               />

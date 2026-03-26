@@ -61,7 +61,7 @@ export default function HomeV1() {
   };
 
   const galleryImages = [
-    { src: `${BASE}/v1-all-about-lem.jpg`, alt: "Self-love manual cards" },
+    { src: `${BASE}/v1-all-about-lem.jpg`, alt: "All about Lem - features overview" },
     { src: `${BASE}/v1-medical-silicone.jpg`, alt: "Medical grade silicone - gentle on skin" },
     { src: `${BASE}/v1-12-patterns.jpg`, alt: "12 Patterns, Endless Possibilities" },
     { src: `${BASE}/v1-all-about-lem.jpg`, alt: "All about Lem features" },
@@ -386,7 +386,7 @@ export default function HomeV1() {
 
             <div className="max-w-md mx-auto mb-6">
               <img
-                src={`${BASE}/v1-all-about-lem.jpg`}
+                src={`${BASE}/v1-nightstand.jpg`}
                 alt="Lem device sitting discreetly on nightstand"
                 className="w-full rounded-lg shadow-lg"
               />
