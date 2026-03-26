@@ -66,9 +66,6 @@ export default function HomeV1() {
     { src: `${BASE}/v1-12-patterns.jpg`, alt: "12 Patterns, Endless Possibilities" },
     { src: `${BASE}/v1-all-about-lem.jpg`, alt: "All about Lem features" },
     { src: `${BASE}/v1-happy-customers.jpg`, alt: "Join 500,000+ Happy Customers" },
-    { src: `${BASE}/PDP-1.jpg`, alt: "Lem with lifestyle setting" },
-    { src: `${BASE}/PDP-2.jpg`, alt: "Close-up of Lem design" },
-    { src: `${BASE}/PDP-8.jpg`, alt: "Lem held in hand" },
   ];
 
   return (
@@ -389,7 +386,7 @@ export default function HomeV1() {
 
             <div className="max-w-md mx-auto mb-6">
               <img
-                src={`${BASE}/discretion_illustration.png`}
+                src={`${BASE}/v1-self-love-manual.jpg`}
                 alt="Lem device sitting discreetly on nightstand"
                 className="w-full rounded-lg shadow-lg"
               />

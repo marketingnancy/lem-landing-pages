@@ -406,7 +406,7 @@ export default function HomeV3() {
             {/* Discretion Illustration */}
             <div className="max-w-md mx-auto mb-6">
               <img
-                src={`${BASE}/discretion_illustration.png`}
+                src={`${BASE}/v3-self-love-manual.jpg`}
                 alt="Lem device sitting discreetly on nightstand"
                 className="w-full rounded-lg shadow-lg"
               />

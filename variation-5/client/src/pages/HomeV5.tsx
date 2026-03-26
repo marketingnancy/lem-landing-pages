@@ -160,8 +160,8 @@ export default function HomeV5() {
       {/* Hero Image */}
       <section className="container max-w-4xl py-8">
         <img
-          src={`${BASE}/v5-happy-customers.jpg`}
-          alt="Join 500,000+ Happy Customers — you're not alone"
+          src={`${BASE}/v5-pink-silk.jpg`}
+          alt="Lem — your new favorite secret"
           className="w-full rounded-lg shadow-lg"
         />
         <p className="text-sm text-gray-500 mt-2 italic">You've been carrying this question quietly. So have millions of other women. Photo: Hello Nancy</p>
