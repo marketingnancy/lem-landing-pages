@@ -124,9 +124,11 @@ export default function HomeV1() {
       <section className="bg-white py-8 md:py-16 border-b border-gray-200">
         <div className="container max-w-4xl px-4">
           <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-gray-600 mb-4">
-            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">HEALTH & WELLNESS</span>
+            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">WELLNESS</span>
             <span className="hidden sm:inline">•</span>
             <span className="bg-gray-100 px-3 py-1 rounded-full">PRODUCT REVIEW</span>
+            <span className="hidden sm:inline">•</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">INVESTIGATION</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-tight">
             500,000+ Women Can't Stop Talking About This Lemon-Shaped Device. Here's Why.
@@ -224,14 +226,14 @@ export default function HomeV1() {
       {/* 7. Article Body */}
       <article className="container max-w-4xl py-12 space-y-8">
 
-        {/* 7a. Introduction — Why We're Talking About This (Daily Habits angle) */}
+        {/* 7a. Introduction — Why 500K+ Women Can't Stop Talking About This */}
         <div className="prose prose-lg max-w-none">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Why We're Talking About Daily Habits</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Why 500,000+ Women Can't Stop Talking About This</h2>
           <p className="text-gray-700 leading-relaxed">
-            Every routine shapes your life — how you move, eat, rest, and even how you connect with yourself. Over time, these small, repeated habits quietly influence how you feel, both physically and emotionally. Some habits energize you and bring you closer to feeling fulfilled, while others leave you feeling like something is missing, even if you can't quite explain why.
+            It started as a whisper in online forums and private Facebook groups. Then the DMs started flooding in. Women over 50 — teachers, grandmothers, retired executives — were raving about a small, lemon-shaped device that they said had changed their lives. Not in a vague, wellness-buzzword way. In a very specific, <em>very personal</em> way.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            What most women don't realize is that true satisfaction isn't built through grand gestures — it's built through the small things you do consistently. And when those habits start working <em>with</em> you instead of against you, everything begins to feel different. Our editorial team spent months researching the habits that matter most — and the fifth one surprised us the most.
+            We set out to understand why this device has gone viral among a demographic that most brands completely ignore. We interviewed gynecologists, pelvic floor specialists, and dozens of real customers. What we found was more than a product trend — it was a quiet revolution in how women over 50 are reclaiming a part of their health that nobody talks about.
           </p>
         </div>
 
@@ -462,10 +464,22 @@ export default function HomeV1() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
-                src={`${BASE}/v1-medical-silicone.jpg`}
-                alt="Lem unboxing experience"
-                className="w-full rounded-lg shadow-lg"
+                src={`${BASE}/v1-unbox-box.jpg`}
+                alt="Nancy Lem premium packaging"
+                className="w-full rounded-lg shadow-lg mb-3"
               />
+              <div className="grid grid-cols-2 gap-3">
+                <img
+                  src={`${BASE}/v1-unbox-detail1.jpg`}
+                  alt="Lem device with accessories"
+                  className="w-full rounded-lg shadow-md"
+                />
+                <img
+                  src={`${BASE}/v1-unbox-detail2.jpg`}
+                  alt="Lem unboxing contents"
+                  className="w-full rounded-lg shadow-md"
+                />
+              </div>
             </div>
             <div className="space-y-4">
               <p className="text-gray-700 leading-relaxed">
@@ -529,7 +543,7 @@ export default function HomeV1() {
 
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                The clitoris has approximately <strong>8,000 nerve endings</strong> — more than any other part of the human body. But here's the catch: <strong>75% of women cannot achieve orgasm through penetration alone</strong>. The clitoris is the key.
+                The clitoris has approximately <strong>8,000 nerve endings</strong> — more than any other part of the human body. But here's the catch: <strong>75% of women cannot reach climax through penetration alone</strong>. The clitoris is the key.
               </p>
 
               <div className="bg-white p-6 rounded-lg my-6">
@@ -720,7 +734,7 @@ export default function HomeV1() {
                     <ul className="space-y-1 text-gray-600">
                       <li>✓ Might rediscover pleasure you thought was gone</li>
                       <li>✓ Could improve tissue health and prevent atrophy</li>
-                      <li>✓ May sleep better (orgasms release oxytocin)</li>
+                      <li>✓ May sleep better (climax releases oxytocin)</li>
                       <li>✓ Worst case: Get your $89 back</li>
                     </ul>
                   </div>
@@ -1014,7 +1028,7 @@ export default function HomeV1() {
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-[#FF1493] flex-shrink-0 mt-0.5" />
-                    <span>Experiencing reduced sensation or difficulty reaching orgasm</span>
+                    <span>Experiencing reduced sensation or difficulty reaching climax</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-[#FF1493] flex-shrink-0 mt-0.5" />

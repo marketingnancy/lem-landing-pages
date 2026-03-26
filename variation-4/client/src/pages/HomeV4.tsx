@@ -296,7 +296,7 @@ export default function HomeV4() {
 
           <div className="bg-white p-6 rounded-lg mt-6 border-2 border-[#FFE14D]">
             <p className="text-lg italic text-gray-900 mb-2">
-              "It feels like it's drawing the orgasm right out... it keeps the throbbing going way longer."
+              "It feels like it's drawing the sensation right out... it keeps the throbbing going way longer."
             </p>
             <p className="font-semibold text-gray-700">— Alisha, Beta Tester (from verified customer reviews)</p>
           </div>
@@ -486,10 +486,22 @@ export default function HomeV4() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
-                src={`${BASE}/v4-medical-silicone.jpg`}
-                alt="Lem unboxing experience"
-                className="w-full rounded-lg shadow-lg"
+                src={`${BASE}/v4-unbox-box.jpg`}
+                alt="Nancy Lem premium packaging"
+                className="w-full rounded-lg shadow-lg mb-3"
               />
+              <div className="grid grid-cols-2 gap-3">
+                <img
+                  src={`${BASE}/v4-unbox-detail1.jpg`}
+                  alt="Lem device with accessories"
+                  className="w-full rounded-lg shadow-md"
+                />
+                <img
+                  src={`${BASE}/v4-unbox-detail2.jpg`}
+                  alt="Lem unboxing contents"
+                  className="w-full rounded-lg shadow-md"
+                />
+              </div>
             </div>
             <div className="space-y-4">
               <p className="text-gray-700 leading-relaxed">
@@ -556,7 +568,7 @@ export default function HomeV4() {
                 Here's something they don't teach in health class: the clitoris has approximately <strong>8,000 nerve endings</strong>—more than any other part of the human body, male or female. For context, the penis has about 4,000.
               </p>
               <p>
-                But here's the catch: <strong>75% of women cannot achieve orgasm through penetration alone</strong>, according to research published in the Journal of Sex & Marital Therapy. The clitoris is the key.
+                But here's the catch: <strong>75% of women cannot reach climax through penetration alone</strong>, according to research published in the Journal of Sex & Marital Therapy. The clitoris is the key.
               </p>
 
               <div className="bg-white p-6 rounded-lg my-6">
@@ -756,7 +768,7 @@ export default function HomeV4() {
                     <ul className="space-y-1 text-gray-600">
                       <li>Might rediscover pleasure you thought was gone</li>
                       <li>Could improve tissue health and prevent atrophy</li>
-                      <li>May sleep better (orgasms release oxytocin)</li>
+                      <li>May sleep better (climax releases oxytocin)</li>
                       <li>Worst case: Get your $89 back</li>
                     </ul>
                   </div>
@@ -1052,7 +1064,7 @@ export default function HomeV4() {
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-[#FF1493] flex-shrink-0 mt-0.5" />
-                    <span>Experiencing reduced sensation or difficulty reaching orgasm</span>
+                    <span>Experiencing reduced sensation or difficulty reaching climax</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-[#FF1493] flex-shrink-0 mt-0.5" />
