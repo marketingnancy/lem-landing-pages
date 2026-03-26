@@ -212,11 +212,11 @@ export default function HomeV1() {
           </p>
         </div>
 
-        {/* 7b. Problem Section — The Habit Nobody Talks About */}
+        {/* 7b. Problem Section — The Health Topic Nobody Discusses */}
         <div className="bg-gray-50 p-8 rounded-xl">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">The Habit That Gets Left Off Every Wellness List</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">The Part of Your Health Nobody Talks About</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            We talk openly about our morning walks, our sleep supplements, our skincare routines. We share workout tips and meal-prep strategies with friends. But when it comes to intimate wellness — especially after 45 — the conversation goes quiet.
+            500,000 women can't be wrong. But before we get to what they discovered, we need to talk about something most wellness brands won't touch. When it comes to intimate wellness — especially after 45 — the conversation goes quiet.
           </p>
           <p className="text-xl font-semibold text-[#FF1493] mb-4">
             Nobody sits you down and says: "Hey, if you don't keep things active down there, your body will change in ways that are hard to reverse."
@@ -888,7 +888,7 @@ export default function HomeV1() {
               Add This to Your Wellness Routine
             </h2>
             <p className="text-center text-xl text-gray-600">
-              A small investment in a habit that supports your health for years to come.
+              A small investment in a device that supports your health for years to come.
             </p>
           </div>
 
@@ -922,7 +922,7 @@ export default function HomeV1() {
                       <strong className="text-2xl text-[#FF1493]">Just $0.24/day</strong> over one year of use
                     </p>
                     <p className="text-center text-sm text-gray-600 mt-1">
-                      Less than your daily coffee. A habit that lasts for years.
+                      Less than your daily coffee. A device that lasts for years.
                     </p>
                   </div>
                   <div className="bg-[#FFE14D]/30 p-4 rounded-lg mb-4">
@@ -1170,7 +1170,7 @@ export default function HomeV1() {
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg text-gray-900 mb-2">How often should I use it?</h3>
                 <p className="text-gray-700">
-                  Like any wellness habit, consistency matters more than frequency. Many women incorporate it 2-3 times per week as part of their self-care routine. The key is regularity — maintaining blood flow over time is what supports tissue health.
+                  Like any wellness routine, consistency matters more than frequency. Many women incorporate it 2-3 times per week as part of their self-care routine. The key is regularity — maintaining blood flow over time is what supports tissue health.
                 </p>
               </CardContent>
             </Card>
@@ -1183,11 +1183,11 @@ export default function HomeV1() {
         <div className="container max-w-4xl px-4">
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-white text-center">
-              Small Habits, Big Changes
+              500,000 Women Already Know. Now It's Your Turn.
             </h2>
             <div className="text-white text-lg leading-relaxed space-y-4">
               <p className="text-center">
-                The habits that shape how you feel don't have to be complicated. They just have to be consistent. Movement, rest, nourishment, stillness — and yes, intimate wellness — all work together to help you feel like yourself.
+                The device that 500,000+ women swear by isn't complicated. It's consistent, gentle, and designed to work with your body — not against it. Your intimate wellness deserves the same attention as every other part of your health.
               </p>
               <p className="text-center text-xl font-bold">
                 The Nancy's Lem is one tool that can support that journey. 500,000+ women already have. And with a 30-day guarantee, there's no reason not to see if it fits into yours.
