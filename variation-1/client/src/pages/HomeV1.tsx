@@ -127,17 +127,15 @@ export default function HomeV1() {
       <section className="bg-white py-8 md:py-16 border-b border-gray-200">
         <div className="container max-w-4xl px-4">
           <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-gray-600 mb-4">
-            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">WELLNESS</span>
+            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">HEALTH & WELLNESS</span>
             <span className="hidden sm:inline">•</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">DAILY HABITS</span>
-            <span className="hidden sm:inline">•</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">SELF-CARE</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">PRODUCT REVIEW</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-tight">
-            Your Daily Habits Are Shaping You More Than You Think
+            "It Works in Under a Minute": Why 500,000 Women Swapped Their Vibrator for a Lemon
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 mb-6 leading-relaxed">
-            Sometimes, it's not the big things — it's the small, everyday habits that quietly shape how you feel.
+            We tested the device women call "my little secret" — and discovered why it's replacing everything in the nightstand drawer.
           </p>
           <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600 border-t border-gray-200 pt-4">
             <div className="flex items-center gap-2">

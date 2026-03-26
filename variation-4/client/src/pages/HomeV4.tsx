@@ -141,17 +141,15 @@ export default function HomeV4() {
       <section className="bg-white py-8 md:py-16 border-b border-gray-200">
         <div className="container max-w-4xl px-4">
           <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-gray-600 mb-4">
-            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">BREAKING TABOO</span>
-            <span className="hidden sm:inline">&bull;</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">SEXUAL WELLNESS</span>
-            <span className="hidden sm:inline">&bull;</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">EDITORIAL</span>
+            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">HEALTH & WELLNESS</span>
+            <span className="hidden sm:inline">•</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">PRODUCT REVIEW</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-tight">
-            Why Is Sex Such a Taboo Topic — And Why Many Women Never Talk About It
+            Why Are Women Still Embarrassed to Talk About This? (And Why 500,000 of Them Bought It Anyway)
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600 mb-6 leading-relaxed italic">
-            "It's Personal. That's Exactly Why It Matters."
+          <p className="text-lg sm:text-xl text-gray-600 mb-6 leading-relaxed">
+            Sex is personal. That's exactly why this lemon-shaped device is outselling every vibrator on the market — quietly, discreetly, and unapologetically.
           </p>
           <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600 border-t border-gray-200 pt-4">
             <div className="flex items-center gap-2">

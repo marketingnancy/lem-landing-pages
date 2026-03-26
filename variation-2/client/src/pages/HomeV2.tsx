@@ -138,17 +138,15 @@ export default function HomeV2() {
       <section className="bg-white py-8 md:py-16 border-b border-gray-200">
         <div className="container max-w-4xl px-4">
           <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-gray-600 mb-4">
-            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">WELLNESS ESSENTIALS</span>
-            <span className="hidden sm:inline">&bull;</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">EDITORIAL FEATURE</span>
-            <span className="hidden sm:inline">&bull;</span>
-            <span className="bg-[#FFE14D]/30 px-3 py-1 rounded-full font-semibold">MUST-READ</span>
+            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">HEALTH & WELLNESS</span>
+            <span className="hidden sm:inline">•</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">PRODUCT REVIEW</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-tight">
-            Why LEM Isn't Just a Seasonal Trend — It's a Must-Have for Every Woman
+            This Lemon-Shaped Device Outsold Every Vibrator on the Market. Here's Why Women Won't Give It Back.
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 mb-6 leading-relaxed">
-            Not a Want, But a Need: The Secret Wellness Tool You Can't Ignore.
+            It's not a trend. It's not a phase. 500,000+ women later, the Nancy's Lem is the wellness tool that stays on the nightstand permanently.
           </p>
           <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600 border-t border-gray-200 pt-4">
             <div className="flex items-center gap-2">

@@ -124,17 +124,15 @@ export default function HomeV5() {
       <section className="bg-white py-8 md:py-16 border-b border-gray-200">
         <div className="container max-w-4xl px-4">
           <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-gray-600 mb-4">
-            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">COMMUNITY</span>
+            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">HEALTH & WELLNESS</span>
             <span className="hidden sm:inline">•</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">SHARED EXPERIENCES</span>
-            <span className="hidden sm:inline">•</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">WELLNESS</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">PRODUCT REVIEW</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-tight">
-            Is It Just Me… Or Does This Happen to Everyone?
+            "Is It Just Me?" — The Question 500,000 Women Googled Before Finding This Device
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 mb-6 leading-relaxed">
-            You're not alone. Many women feel the same frustration and confusion — and overthinking only makes it harder.
+            You're not broken. You're not alone. And the answer to what you've been wondering fits in the palm of your hand.
           </p>
           <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600 border-t border-gray-200 pt-4">
             <div className="flex items-center gap-2">

@@ -141,17 +141,15 @@ export default function HomeV3() {
       <section className="bg-white py-8 md:py-16 border-b border-gray-200">
         <div className="container max-w-4xl px-4">
           <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-gray-600 mb-4">
-            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">SELF-CARE</span>
+            <span className="text-[#FF1493] font-semibold bg-[#FF1493]/10 px-3 py-1 rounded-full">HEALTH & WELLNESS</span>
             <span className="hidden sm:inline">•</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">INTIMATE WELLNESS</span>
-            <span className="hidden sm:inline">•</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">EDITORIAL</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">PRODUCT REVIEW</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-tight">
-            When Was the Last Time You Did Something Just for You?
+            "I Did Something Just for Me": The $89 Device Women Are Calling Better Than Any Spa Day
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 mb-6 leading-relaxed">
-            Self-Care Isn't Just Skincare — Here's the Secret You've Been Ignoring.
+            Self-care isn't complete until it includes the part nobody talks about. 500,000 women just figured that out.
           </p>
           <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600 border-t border-gray-200 pt-4">
             <div className="flex items-center gap-2">
