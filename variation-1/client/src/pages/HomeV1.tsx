@@ -132,7 +132,7 @@ export default function HomeV1() {
             <span className="bg-gray-100 px-3 py-1 rounded-full">PRODUCT REVIEW</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-tight">
-            "It Works in Under a Minute": Why 500,000 Women Swapped Their Vibrator for a Lemon
+            500,000+ Women Can't Stop Talking About This Lemon-Shaped Device. Here's Why.
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 mb-6 leading-relaxed">
             We tested the device women call "my little secret" — and discovered why it's replacing everything in the nightstand drawer.
