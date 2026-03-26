@@ -260,30 +260,6 @@ export default function HomeV5() {
           </p>
         </div>
 
-        {/* Video Section */}
-        <div>
-          <div className="relative rounded-lg shadow-lg overflow-hidden">
-            <video
-              ref={videoRef}
-              src={`${BASE}/v5-video.mp4`}
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="w-full"
-              poster={`${BASE}/v5-pink-silk.jpg`}
-            />
-            <button
-              onClick={toggleMute}
-              className="absolute bottom-3 right-3 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-all"
-              aria-label={isMuted ? "Unmute" : "Mute"}
-            >
-              {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
-            </button>
-          </div>
-          <p className="text-sm text-gray-500 mt-2 italic">Hear from real women who felt the same way — until they didn't. Video: Hello Nancy</p>
-        </div>
-
         {/* Science Section */}
         <div className="bg-gradient-to-br from-[#FFE14D]/20 to-[#FF1493]/10 p-8 rounded-xl">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">The Science: Why Air Pulse Technology Works</h2>
@@ -464,6 +440,33 @@ export default function HomeV5() {
           <div>
             <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Product Gallery</h3>
             <ImageGallery images={galleryImages} />
+          </div>
+        </div>
+
+        {/* See It in Action */}
+        <div className="mt-8">
+          <h3 className="text-xl font-bold text-gray-900 mb-4">See It in Action</h3>
+          <div>
+            <div className="relative rounded-lg shadow-lg overflow-hidden">
+              <video
+                ref={videoRef}
+                src={`${BASE}/v5-video.mp4`}
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full"
+                poster={`${BASE}/v5-pink-silk.jpg`}
+              />
+              <button
+                onClick={toggleMute}
+                className="absolute bottom-3 right-3 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-all"
+                aria-label={isMuted ? "Unmute" : "Mute"}
+              >
+                {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+              </button>
+            </div>
+            <p className="text-sm text-gray-500 mt-2 italic">Hear from real women who felt the same way — until they didn't. Video: Hello Nancy</p>
           </div>
         </div>
 

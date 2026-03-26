@@ -198,30 +198,6 @@ export default function HomeV1() {
         </div>
       </section>
 
-      {/* Video Section */}
-      <section className="container max-w-4xl py-6">
-        <div className="relative rounded-lg shadow-lg overflow-hidden">
-          <video
-            ref={videoRef}
-            src={`${BASE}/v1-video.mp4`}
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full"
-            poster={`${BASE}/v1-all-about-lem.jpg`}
-          />
-          <button
-            onClick={toggleMute}
-            className="absolute bottom-3 right-3 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-all"
-            aria-label={isMuted ? "Unmute" : "Mute"}
-          >
-            {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
-          </button>
-        </div>
-        <p className="text-sm text-gray-500 mt-2 italic">See Lem in action — real women, real moments. Video: Hello Nancy</p>
-      </section>
-
       {/* 7. Article Body */}
       <article className="container max-w-4xl py-12 space-y-8">
 
@@ -455,6 +431,31 @@ export default function HomeV1() {
             <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Product Gallery</h3>
             <ImageGallery images={galleryImages} />
           </div>
+
+        {/* See It in Action */}
+        <div className="mt-8">
+          <h3 className="text-xl font-bold text-gray-900 mb-4">See It in Action</h3>
+          <div className="relative rounded-lg shadow-lg overflow-hidden">
+            <video
+              ref={videoRef}
+              src={`${BASE}/v1-video.mp4`}
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full"
+              poster={`${BASE}/v1-all-about-lem.jpg`}
+            />
+            <button
+              onClick={toggleMute}
+              className="absolute bottom-3 right-3 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-all"
+              aria-label={isMuted ? "Unmute" : "Mute"}
+            >
+              {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+            </button>
+          </div>
+          <p className="text-sm text-gray-500 mt-2 italic">See Lem in action — real women, real moments. Video: Hello Nancy</p>
+        </div>
         </div>
 
         {/* 7g. Unboxing Experience */}

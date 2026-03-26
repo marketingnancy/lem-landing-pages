@@ -180,30 +180,6 @@ export default function HomeV2() {
         <p className="text-sm text-gray-500 mt-2 italic">Some things never go out of style. Your wellness is one of them. Photo: Hello Nancy</p>
       </section>
 
-      {/* Video Section */}
-      <section className="container max-w-4xl py-6">
-        <div className="relative rounded-lg shadow-lg overflow-hidden">
-          <video
-            ref={videoRef}
-            src={`${BASE}/v2-video.mp4`}
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full"
-            poster={`${BASE}/v2-silk.jpg`}
-          />
-          <button
-            onClick={toggleMute}
-            className="absolute bottom-3 right-3 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-all"
-            aria-label={isMuted ? "Unmute" : "Mute"}
-          >
-            {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
-          </button>
-        </div>
-        <p className="text-sm text-gray-500 mt-2 italic">See why Lem isn't just a trend — it's a must-have. Video: Hello Nancy</p>
-      </section>
-
       {/* Trust Indicators */}
       <section className="bg-white py-6 border-y border-gray-200">
         <div className="container max-w-4xl">
@@ -473,6 +449,31 @@ export default function HomeV2() {
             <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Product Gallery</h3>
             <ImageGallery images={galleryImages} />
           </div>
+
+        {/* See It in Action */}
+        <div className="mt-8">
+          <h3 className="text-xl font-bold text-gray-900 mb-4">See It in Action</h3>
+          <div className="relative rounded-lg shadow-lg overflow-hidden">
+            <video
+              ref={videoRef}
+              src={`${BASE}/v2-video.mp4`}
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full"
+              poster={`${BASE}/v2-silk.jpg`}
+            />
+            <button
+              onClick={toggleMute}
+              className="absolute bottom-3 right-3 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-all"
+              aria-label={isMuted ? "Unmute" : "Mute"}
+            >
+              {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+            </button>
+          </div>
+          <p className="text-sm text-gray-500 mt-2 italic">See why Lem isn't just a trend — it's a must-have. Video: Hello Nancy</p>
+        </div>
         </div>
 
         {/* Unboxing Experience Section */}
