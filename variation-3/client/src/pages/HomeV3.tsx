@@ -258,7 +258,7 @@ export default function HomeV3() {
             Somewhere along the way, we separated pleasure from wellness. We made it a guilty indulgence instead of what it actually is: a fundamental part of your physical and emotional health. We hear all about the hot flashes that leave us sweating through our silk sheets at 3 AM. We hear about the brain fog that has us searching for our glasses while they're on our faces.
           </p>
           <p className="text-xl font-semibold text-[#FF1493] mb-4">
-            But nobody sits you down with a glass of Pinot and whispers: "Hey, by the way, if you don't keep things active downstairs, your clitoris might literally shrink."
+            But nobody sits you down with a glass of Pinot and whispers: "Hey, by the way, if you don't keep things active down there, your clitoris might literally shrink."
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             It's called <strong>Clitoral Atrophy</strong>, and it's part of Genitourinary Syndrome of Menopause (GSM)—a condition affecting up to 50% of postmenopausal women, according to the North American Menopause Society.

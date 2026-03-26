@@ -74,7 +74,6 @@ export default function HomeV2() {
 
   const galleryImages = [
     { src: `${BASE}/v2-all-about-lem.jpg`, alt: "All about Lem - Quiet, Soft, Medical-Grade" },
-    { src: `${BASE}/v2-fruit-bowl.jpg`, alt: "Cute Enough for the Fruit Bowl" },
     { src: `${BASE}/v2-lemon-slices.jpg`, alt: "Lem in bowl with lemon slices" },
     { src: `${BASE}/v2-body-shot.jpg`, alt: "Woman holding Lem" },
     { src: `${BASE}/v2-silk.jpg`, alt: "Lem on white silk" },
@@ -256,7 +255,7 @@ export default function HomeV2() {
             We hear all about the hot flashes that leave us sweating through our silk sheets at 3 AM. We hear about the brain fog that has us searching for our glasses while they're on our faces.
           </p>
           <p className="text-xl font-semibold text-[#FF1493] mb-4">
-            But nobody sits you down with a glass of Pinot and whispers: "Hey, by the way, if you don't keep things active downstairs, your clitoris might literally shrink."
+            But nobody sits you down with a glass of Pinot and whispers: "Hey, by the way, if you don't keep things active down there, your clitoris might literally shrink."
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             It's called <strong>Clitoral Atrophy</strong>, and it's part of Genitourinary Syndrome of Menopause (GSM)—a condition affecting up to 50% of postmenopausal women, according to the North American Menopause Society.

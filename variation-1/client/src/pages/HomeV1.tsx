@@ -61,7 +61,6 @@ export default function HomeV1() {
   };
 
   const galleryImages = [
-    { src: `${BASE}/v1-all-about-lem.jpg`, alt: "All about Lem - features overview" },
     { src: `${BASE}/v1-medical-silicone.jpg`, alt: "Medical grade silicone - gentle on skin" },
     { src: `${BASE}/v1-12-patterns.jpg`, alt: "12 Patterns, Endless Possibilities" },
     { src: `${BASE}/v1-all-about-lem.jpg`, alt: "All about Lem features" },
@@ -162,7 +161,7 @@ export default function HomeV1() {
       {/* 5. Hero Product Image */}
       <section className="container max-w-4xl py-8">
         <img
-          src={`${BASE}/v1-12-patterns.jpg`}
+          src={`${BASE}/v1-product-clean.jpg`}
           alt="Nancy's Lem — 12 patterns, endless possibilities"
           className="w-full rounded-lg shadow-lg"
         />
@@ -244,7 +243,7 @@ export default function HomeV1() {
             We talk openly about our morning walks, our sleep supplements, our skincare routines. We share workout tips and meal-prep strategies with friends. But when it comes to intimate wellness — especially after 45 — the conversation goes quiet.
           </p>
           <p className="text-xl font-semibold text-[#FF1493] mb-4">
-            Nobody sits you down and says: "Hey, if you don't keep things active downstairs, your body will change in ways that are hard to reverse."
+            Nobody sits you down and says: "Hey, if you don't keep things active down there, your body will change in ways that are hard to reverse."
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             It's called <strong>Clitoral Atrophy</strong>, and it's part of Genitourinary Syndrome of Menopause (GSM) — a condition affecting up to 50% of postmenopausal women. As estrogen levels drop, blood flow to the pelvic region decreases. Tissue thins. Sensitivity fades. Many women accept these changes as inevitable.
