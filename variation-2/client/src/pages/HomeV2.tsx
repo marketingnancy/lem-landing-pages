@@ -80,7 +80,7 @@ export default function HomeV2() {
   ];
 
   return (
-    <div className="min-h-screen bg-white relative">
+    <div className="min-h-screen bg-white relative overflow-x-hidden">
       {/* Editorial Header */}
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
         <div className="container px-4 py-4">
@@ -101,7 +101,7 @@ export default function HomeV2() {
       {/* Sticky CTA Bar */}
       {showStickyBar && (
         <div className="fixed top-16 left-0 right-0 z-40 bg-[#FF1493] text-white py-3 shadow-lg animate-in slide-in-from-top">
-          <div className="container flex items-center justify-between">
+          <div className="container px-4 flex items-center justify-between">
             <div className="flex items-center gap-4">
               <span className="font-bold">Limited Time: Save $70 on Lem</span>
               {showTimer && (
@@ -171,7 +171,7 @@ export default function HomeV2() {
       </div>
 
       {/* Hero Image */}
-      <section className="container max-w-4xl py-8">
+      <section className="container max-w-4xl px-4 py-8">
         <img
           src={`${BASE}/v2-fruit-bowl.jpg`}
           alt="Cute Enough for the Fruit Bowl — Lem disguised among real fruit"
@@ -182,7 +182,7 @@ export default function HomeV2() {
 
       {/* Trust Indicators */}
       <section className="bg-white py-6 border-y border-gray-200">
-        <div className="container max-w-4xl">
+        <div className="container max-w-4xl px-4">
           {/* Live Visitor Count */}
           <div className="flex items-center justify-center gap-2 mb-4 text-sm text-gray-600">
             <div className="flex items-center gap-2">
@@ -212,7 +212,7 @@ export default function HomeV2() {
       </section>
 
       {/* Article Body */}
-      <article className="container max-w-4xl py-12 space-y-8">
+      <article className="container max-w-4xl px-4 py-12 space-y-8 overflow-hidden">
         {/* Introduction */}
         <div className="prose prose-lg max-w-none">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Why This Isn't Just Another Wellness Trend</h2>
@@ -835,7 +835,7 @@ export default function HomeV2() {
       </article>
 
       {/* Written Reviews */}
-      <section className="container py-16 md:py-24">
+      <section className="container px-4 py-16 md:py-24">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
             Women Who Made It Part of Their Lives
@@ -1042,7 +1042,7 @@ export default function HomeV2() {
 
       {/* Is This For You Section */}
       <section className="bg-gradient-to-br from-[#FFE14D]/10 via-white to-[#FF1493]/10 py-16 md:py-24">
-        <div className="container max-w-4xl">
+        <div className="container max-w-4xl px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
             Is Lem Right For You?
           </h2>

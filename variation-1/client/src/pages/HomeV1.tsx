@@ -68,7 +68,7 @@ export default function HomeV1() {
   ];
 
   return (
-    <div className="min-h-screen bg-white relative">
+    <div className="min-h-screen bg-white relative overflow-x-hidden">
       {/* 1. Header */}
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
         <div className="container px-4 py-4">
@@ -89,7 +89,7 @@ export default function HomeV1() {
       {/* 2. Sticky CTA Bar */}
       {showStickyBar && (
         <div className="fixed top-16 left-0 right-0 z-40 bg-[#FF1493] text-white py-3 shadow-lg animate-in slide-in-from-top">
-          <div className="container flex items-center justify-between">
+          <div className="container px-4 flex items-center justify-between">
             <div className="flex items-center gap-4">
               <span className="font-bold">Special Offer: Save $70 on Lem</span>
               {showTimer && (
@@ -159,7 +159,7 @@ export default function HomeV1() {
       </div>
 
       {/* 5. Hero Product Image */}
-      <section className="container max-w-4xl py-8">
+      <section className="container max-w-4xl px-4 py-8">
         <img
           src={`${BASE}/v1-hero-500k.jpg`}
           alt="Nancy's Lem — 12 patterns, endless possibilities"
@@ -170,7 +170,7 @@ export default function HomeV1() {
 
       {/* 6. Trust Indicators */}
       <section className="bg-white py-6 border-y border-gray-200">
-        <div className="container max-w-4xl">
+        <div className="container max-w-4xl px-4">
           <div className="flex items-center justify-center gap-2 mb-4 text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
@@ -199,7 +199,7 @@ export default function HomeV1() {
       </section>
 
       {/* 7. Article Body */}
-      <article className="container max-w-4xl py-12 space-y-8">
+      <article className="container max-w-4xl px-4 py-12 space-y-8 overflow-hidden">
 
         {/* 7a. Introduction — Why 500K+ Women Can't Stop Talking About This */}
         <div className="prose prose-lg max-w-none">
@@ -813,7 +813,7 @@ export default function HomeV1() {
       </article>
 
       {/* 8. Written Reviews */}
-      <section className="container py-16 md:py-24">
+      <section className="container px-4 py-16 md:py-24">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
             What Verified Buyers Are Saying
@@ -1017,7 +1017,7 @@ export default function HomeV1() {
 
       {/* 10. "Is This For You" Section */}
       <section className="bg-gradient-to-br from-[#FFE14D]/10 via-white to-[#FF1493]/10 py-16 md:py-24">
-        <div className="container max-w-4xl">
+        <div className="container max-w-4xl px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
             Is Lem Right For You?
           </h2>
