@@ -215,12 +215,12 @@ export default function HomeV2() {
       <article className="container max-w-4xl px-4 py-12 space-y-8 overflow-hidden">
         {/* Introduction */}
         <div className="prose prose-lg max-w-none">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">How a Lemon-Shaped Device Outsold Everything on the Market</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">The Device Women Refuse to Give Back</h2>
           <p className="text-gray-700 leading-relaxed">
-            When our editorial team first saw the sales numbers, we didn't believe them. A small, yellow, lemon-shaped device — outselling products from brands with decades of market share? We had to investigate. So we interviewed dozens of women, consulted with gynecologists, and tested it ourselves. What we found explains everything.
+            We've reviewed hundreds of wellness products. Most get used for a week, shoved in a drawer, and forgotten. The Nancy's Lem is the opposite — women hold onto it like their lives depend on it. They hide it from roommates. They bring it on vacation. One woman told us she bought a second one "just in case something happens to the first."
           </p>
           <p className="text-gray-700 leading-relaxed">
-            The Nancy's Lem didn't outsell the competition through marketing. It did it through results — and word of mouth. Women tried it, couldn't believe how well it worked, and told their friends. 500,000+ units later, it's addressing something most brands ignore entirely: <strong>intimate wellness during and after menopause</strong>. 40% of Nancy customers are 45+, and they'll tell you — once you try it, you understand why nothing else comes close.
+            When 500,000+ women refuse to let go of a product, that's not marketing — that's a product that actually delivers. So we investigated: what makes this lemon-shaped device so different that women who've tried everything else say <em>"this is the one I'll never replace"</em>? The answer starts with a problem most brands won't even acknowledge: <strong>intimate wellness during and after menopause</strong>. 40% of Nancy customers are 45+, and they'll tell you — once you try it, nothing else comes close.
           </p>
         </div>
 
