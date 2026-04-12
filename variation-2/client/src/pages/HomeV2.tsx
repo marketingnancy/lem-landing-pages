@@ -73,10 +73,10 @@ export default function HomeV2() {
   };
 
   const galleryImages = [
-    { src: `${BASE}/v2-all-about-lem.jpg`, alt: "All about Lem - Quiet, Soft, Medical-Grade" },
-    { src: `${BASE}/v2-lemon-slices.jpg`, alt: "Lem in bowl with lemon slices" },
-    { src: `${BASE}/v2-body-shot.jpg`, alt: "Woman holding Lem" },
-    { src: `${BASE}/v2-silk.jpg`, alt: "Lem on white silk" },
+    { src: `${BASE}/v2-gallery1.jpg`, alt: "This completely changed that — Amy W., UK" },
+    { src: `${BASE}/v2-gallery2.jpg`, alt: "I love my Lem — customer selfie" },
+    { src: `${BASE}/v2-gallery3.jpg`, alt: "Trusted by 500,000+ customers — real reviews" },
+    { src: `${BASE}/v2-gallery4.jpg`, alt: "Lem vs competitor — powerful suction, whisper-quiet, body-safe" },
   ];
 
   return (
@@ -248,8 +248,16 @@ export default function HomeV2() {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFE14D]/30 to-[#FF1493]/30 p-6 rounded-lg">
-            <p className="text-2xl font-bold text-gray-900 mb-2 italic">"Stop vibrating. Start sucking."</p>
-            <p className="text-gray-700">— Pelvic Floor Specialists</p>
+            <p className="text-2xl font-bold text-gray-900 mb-2 italic">"Essentially an elevated version of the very famous toy..."</p>
+            <p className="text-gray-700">— Jordan Theresa, Verified Reviewer</p>
+          </div>
+
+          <div className="max-w-sm sm:max-w-md mx-auto my-6">
+            <img
+              src={`${BASE}/v2-comparison.png`}
+              alt="Jordan Theresa comparing Lem to famous competitor — elevated version"
+              className="w-full rounded-lg shadow-lg"
+            />
           </div>
 
           <p className="text-gray-700 leading-relaxed mt-6">
