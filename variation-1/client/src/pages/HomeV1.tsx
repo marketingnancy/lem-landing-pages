@@ -240,7 +240,7 @@ export default function HomeV1() {
             <p className="text-gray-700">— Pelvic Floor Specialists</p>
           </div>
 
-          <div className="max-w-lg mx-auto my-6">
+          <div className="max-w-sm sm:max-w-md mx-auto my-6">
             <img
               src={`${BASE}/v1-hype-review.jpg`}
               alt="I Finally Get the Hype — Alyssa Grenfell review"
