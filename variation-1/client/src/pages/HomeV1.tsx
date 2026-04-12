@@ -61,7 +61,7 @@ export default function HomeV1() {
   };
 
   const galleryImages = [
-    { src: `${BASE}/v1-gallery-daliza.png`, alt: "It has AMAZING suction — Daliza" },
+    { src: `${BASE}/v1-gallery-leticia.jpg`, alt: "Love this product, it works better than expected — Leticia M." },
     { src: `${BASE}/v1-gallery-victoria.jpg`, alt: "This little device is powerful — Victoria F." },
     { src: `${BASE}/v1-gallery-ilovelemm.jpg`, alt: "I love my Lem — customer selfie" },
     { src: `${BASE}/v1-gallery-12patterns.jpg`, alt: "12 Patterns. Endless Possibilities." },
@@ -238,6 +238,14 @@ export default function HomeV1() {
           <div className="bg-gradient-to-r from-[#FFE14D]/30 to-[#FF1493]/30 p-6 rounded-lg">
             <p className="text-2xl font-bold text-gray-900 mb-2 italic">"Stop vibrating. Start sucking."</p>
             <p className="text-gray-700">— Pelvic Floor Specialists</p>
+          </div>
+
+          <div className="max-w-sm mx-auto my-6">
+            <img
+              src={`${BASE}/v1-hype-review.jpg`}
+              alt="I Finally Get the Hype — Alyssa Grenfell review"
+              className="w-full rounded-lg shadow-lg"
+            />
           </div>
 
           <p className="text-gray-700 leading-relaxed mt-6">
