@@ -61,10 +61,10 @@ export default function HomeV1() {
   };
 
   const galleryImages = [
-    { src: `${BASE}/v1-medical-silicone.jpg`, alt: "Medical grade silicone - gentle on skin" },
-    { src: `${BASE}/v1-12-patterns.jpg`, alt: "12 Patterns, Endless Possibilities" },
-    { src: `${BASE}/v1-all-about-lem.jpg`, alt: "All about Lem features" },
-    { src: `${BASE}/v1-happy-customers.jpg`, alt: "Join 500,000+ Happy Customers" },
+    { src: `${BASE}/v1-gallery-daliza.png`, alt: "It has AMAZING suction — Daliza" },
+    { src: `${BASE}/v1-gallery-victoria.jpg`, alt: "This little device is powerful — Victoria F." },
+    { src: `${BASE}/v1-gallery-ilovelemm.jpg`, alt: "I love my Lem — customer selfie" },
+    { src: `${BASE}/v1-gallery-12patterns.jpg`, alt: "12 Patterns. Endless Possibilities." },
   ];
 
   return (
@@ -161,7 +161,7 @@ export default function HomeV1() {
       {/* 5. Hero Product Image */}
       <section className="container max-w-4xl py-8">
         <img
-          src={`${BASE}/v1-product-clean.jpg`}
+          src={`${BASE}/v1-hero-500k.jpg`}
           alt="Nancy's Lem — 12 patterns, endless possibilities"
           className="w-full rounded-lg shadow-lg"
         />
