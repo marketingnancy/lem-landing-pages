@@ -145,7 +145,7 @@ export default function HomeV2() {
             This Lemon-Shaped Device Outsold Every Intimate Product on the Market. Here's Why Women Won't Give It Back.
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 mb-6 leading-relaxed">
-            It's not a trend. It's not a phase. 500,000+ women later, the Nancy's Lem is the wellness tool that stays on the nightstand permanently.
+            It didn't win through marketing. It won because women tried it, couldn't believe it worked, and told everyone they knew.
           </p>
           <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600 border-t border-gray-200 pt-4">
             <div className="flex items-center gap-2">
