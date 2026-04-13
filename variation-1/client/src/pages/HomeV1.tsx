@@ -112,7 +112,7 @@ export default function HomeV1() {
               }}
             >
               <Button className="bg-white text-[#FF1493] hover:bg-gray-100">
-                Learn More — $89
+                Shop Now — $89
               </Button>
             </a>
           </div>
@@ -981,7 +981,7 @@ export default function HomeV1() {
                   }}
                 >
                   <Button size="lg" className="w-full bg-[#FF1493] hover:bg-[#E01280] text-white text-xl py-7 shadow-xl">
-                    Explore the Lem — $89 (Save $70)
+                    Shop Now — $89 (Save $70)
                   </Button>
                 </a>
 
@@ -1121,7 +1121,7 @@ export default function HomeV1() {
                 }}
               >
                 <Button size="lg" className="bg-[#FF1493] hover:bg-[#E01280] text-white px-12 py-6 text-lg">
-                  Yes, This Is Me — Learn More
+                  Yes, This Is Me — Shop Now
                 </Button>
               </a>
             </div>
@@ -1218,7 +1218,7 @@ export default function HomeV1() {
                 }}
               >
                 <Button size="lg" className="bg-white text-[#FF1493] hover:bg-gray-100 text-xl px-12 py-7 shadow-2xl">
-                  Explore Nancy's Lem — $89
+                  Shop Now — $89
                 </Button>
               </a>
               <p className="text-white/90 text-sm mt-4">✓ 30-day guarantee ✓ Free shipping ✓ Discreet packaging</p>
