@@ -74,7 +74,7 @@ export default function HomeV3() {
 
   const galleryImages = [
     { src: `${BASE}/v3-gallery-500k.jpg`, alt: "Trusted by 500,000+ customers — real reviews" },
-    { src: `${BASE}/v3-gallery-obsession.jpg`, alt: "Your New Obsession" },
+    { src: `${BASE}/v3-hero-meet-lem.jpg`, alt: "Meet Lem — your zesty new playmate" },
     { src: `${BASE}/v3-gallery-fantasy.jpg`, alt: "Your fantasy, no limits." },
     { src: `${BASE}/v3-bowl-lemons.jpg`, alt: "Lem in bowl with lemon slices" },
   ];
@@ -176,11 +176,11 @@ export default function HomeV3() {
       {/* Hero Image */}
       <section className="container max-w-4xl px-4 py-8">
         <img
-          src={`${BASE}/v3-hero-meet-lem.jpg`}
-          alt="Meet Lem — your zesty new playmate for intimate moments"
+          src={`${BASE}/v3-gallery-obsession.jpg`}
+          alt="Your New Obsession — self-care redefined"
           className="w-full rounded-lg shadow-lg"
         />
-        <p className="text-sm text-gray-500 mt-2 italic">Meet Lem. Your zesty new playmate for intimate moments. Photo: Hello Nancy</p>
+        <p className="text-sm text-gray-500 mt-2 italic">Your new obsession. Photo: Hello Nancy</p>
       </section>
 
       {/* Trust Indicators */}
