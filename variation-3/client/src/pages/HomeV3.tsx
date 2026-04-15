@@ -73,9 +73,9 @@ export default function HomeV3() {
   };
 
   const galleryImages = [
-    { src: `${BASE}/v3-body-shot.jpg`, alt: "Woman holding Lem" },
-    { src: `${BASE}/v3-happy-customers.jpg`, alt: "Join 500,000+ Happy Customers" },
-    { src: `${BASE}/v3-solo-partner.jpg`, alt: "Solo? Partner? Always Yes." },
+    { src: `${BASE}/v3-gallery-500k.jpg`, alt: "Trusted by 500,000+ customers — real reviews" },
+    { src: `${BASE}/v3-gallery-obsession.jpg`, alt: "Your New Obsession" },
+    { src: `${BASE}/v3-gallery-fantasy.jpg`, alt: "Your fantasy, no limits." },
     { src: `${BASE}/v3-bowl-lemons.jpg`, alt: "Lem in bowl with lemon slices" },
   ];
 
@@ -176,11 +176,11 @@ export default function HomeV3() {
       {/* Hero Image */}
       <section className="container max-w-4xl px-4 py-8">
         <img
-          src={`${BASE}/v3-bowl-lemons.jpg`}
-          alt="Lem wellness device in a bowl with lemon slices — self-care redefined"
+          src={`${BASE}/v3-hero-meet-lem.jpg`}
+          alt="Meet Lem — your zesty new playmate for intimate moments"
           className="w-full rounded-lg shadow-lg"
         />
-        <p className="text-sm text-gray-500 mt-2 italic">Cute enough for the fruit bowl. Powerful enough to change your life. Photo: Hello Nancy</p>
+        <p className="text-sm text-gray-500 mt-2 italic">Meet Lem. Your zesty new playmate for intimate moments. Photo: Hello Nancy</p>
       </section>
 
       {/* Trust Indicators */}
@@ -230,6 +230,15 @@ export default function HomeV3() {
         {/* Problem Section */}
         <div className="bg-gray-50 p-8 rounded-xl">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Self-Pleasure <em>Is</em> Self-Care</h2>
+
+          <div className="max-w-sm sm:max-w-md mx-auto my-6">
+            <img
+              src={`${BASE}/v3-goodbye-stress.jpg`}
+              alt="Goodbye stress. Hello bliss."
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
+
           <p className="text-gray-700 leading-relaxed mb-4">
             Somewhere along the way, we separated pleasure from wellness. We made it a guilty indulgence instead of what it actually is: a fundamental part of your physical and emotional health. We hear all about the hot flashes that leave us sweating through our silk sheets at 3 AM. We hear about the brain fog that has us searching for our glasses while they're on our faces.
           </p>
