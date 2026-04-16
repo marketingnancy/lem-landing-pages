@@ -75,7 +75,7 @@ export default function HomeV3() {
   const galleryImages = [
     { src: `${BASE}/v3-gallery-500k.jpg`, alt: "Trusted by 500,000+ customers — real reviews" },
     { src: `${BASE}/v3-gallery-obsession.jpg`, alt: "Your New Obsession" },
-    { src: `${BASE}/v3-solo-partner.jpg`, alt: "Solo? Partner? Always Yes." },
+    { src: `${BASE}/v3-addicted.jpg`, alt: "Addicted Already" },
     { src: `${BASE}/v3-bowl-lemons.jpg`, alt: "Lem in bowl with lemon slices" },
   ];
 
@@ -288,14 +288,6 @@ export default function HomeV3() {
         {/* Science Section */}
         <div className="bg-gradient-to-br from-[#FFE14D]/20 to-[#FF1493]/10 p-8 rounded-xl">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">The Science Behind Self-Care That Actually Works</h2>
-
-          <div className="max-w-sm sm:max-w-md mx-auto my-6">
-            <img
-              src={`${BASE}/v3-gallery-fantasy.jpg`}
-              alt="Your fantasy, no limits."
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
 
           <div className="space-y-4 max-w-2xl mx-auto mb-6">
             <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded">
