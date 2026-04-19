@@ -76,7 +76,7 @@ export default function HomeV3() {
     { src: `${BASE}/v3-gallery-500k.jpg`, alt: "Trusted by 500,000+ customers — real reviews" },
     { src: `${BASE}/v3-gallery-obsession.jpg`, alt: "Your New Obsession" },
     { src: `${BASE}/v3-addicted.jpg`, alt: "Addicted Already" },
-    { src: `${BASE}/v3-bowl-lemons.jpg`, alt: "Lem in bowl with lemon slices" },
+    { src: `${BASE}/v3-body-shot.jpg`, alt: "Woman with Lem — confident and glowing" },
   ];
 
   return (
@@ -176,11 +176,11 @@ export default function HomeV3() {
       {/* Hero Image */}
       <section className="container max-w-4xl px-4 py-8">
         <img
-          src={`${BASE}/v3-hero-meet-lem.jpg`}
-          alt="Meet Lem — your zesty new playmate for intimate moments"
+          src={`${BASE}/v3-bowl-lemons.jpg`}
+          alt="Nancy's Lem — self-care, redefined"
           className="w-full rounded-lg shadow-lg"
         />
-        <p className="text-sm text-gray-500 mt-2 italic">Meet Lem. Your zesty new playmate for intimate moments. Photo: Hello Nancy</p>
+        <p className="text-sm text-gray-500 mt-2 italic">Self-care isn't just skincare. Photo: Hello Nancy</p>
       </section>
 
       {/* Trust Indicators */}
@@ -272,6 +272,15 @@ export default function HomeV3() {
         {/* Product Introduction */}
         <div>
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Meet Lem: The Self-Care Tool You Didn't Know You Needed</h2>
+
+          <div className="max-w-sm sm:max-w-md mx-auto my-6">
+            <img
+              src={`${BASE}/v3-hero-meet-lem.jpg`}
+              alt="Meet Lem — your zesty new playmate for intimate moments"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
+
           <p className="text-gray-700 leading-relaxed mb-4">
             That's where this little yellow device comes in. The Nancy's Lem isn't marketed as a sex toy—it's positioned as a wellness device. And after our research, we understand why. Think of it as the intimate equivalent of your best skincare product: gentle, effective, and designed for consistent use over time.
           </p>
