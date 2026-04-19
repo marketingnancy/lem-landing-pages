@@ -76,7 +76,7 @@ export default function HomeV3() {
     { src: `${BASE}/v3-gallery-500k.jpg`, alt: "Trusted by 500,000+ customers — real reviews" },
     { src: `${BASE}/v3-gallery-obsession.jpg`, alt: "Your New Obsession" },
     { src: `${BASE}/v3-addicted.jpg`, alt: "Addicted Already" },
-    { src: `${BASE}/v3-gallery-woman.jpg`, alt: "I screamed. Literally. — Customer reaction" },
+    { src: `${BASE}/v3-gallery-review.jpg`, alt: "Great material, comfortable and easy to use — Victoria F." },
   ];
 
   return (
